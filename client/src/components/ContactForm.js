@@ -26,14 +26,16 @@ class ContactForm extends Component {
         e.preventDefault();
         const {name, email, subject, message} = this.state;
 
-        const form = await axios.post('/api/form', {
+        const url = 'http:localhost:8000'
+
+        const form = await axios.post(`/api/form`, {
             name,
             email,
             subject,
             message
         })
 
-        console.log('this form has been submitted')
+        console.log(form)
     }
     
     render() {
@@ -62,7 +64,7 @@ class ContactForm extends Component {
                                 <textarea name="" className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message" onChange={this.handleChange}></textarea>
                             </div>
                             <div className="col-8 pt-3 mx-auto">
-                                <button type="button" className="btn btn-primary">Send Message</button>
+                                <button type="submit" className="btn btn-primary">Send Message</button>
                             </div>
                         </div>
                     </form>
