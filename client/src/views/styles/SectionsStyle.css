@@ -47,10 +47,18 @@ section:nth-child(odd)
 
 #section2
 {
-    top: 25%;
+    top: 2%;
     position: relative;
     justify-content: space-around;
 }
+
+#section2-5
+{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #NavBar
 {   
@@ -61,6 +69,7 @@ section:nth-child(odd)
     margin: 0;
     padding: 0;
     display: flex;
+    z-index: 100;
 }
 
 a
@@ -87,7 +96,17 @@ a:hover
     width: 250px;
 }
 
+#gymbroImg
+{
+    width: 465px;
+}
+
 #CovidImg
 {
-    width: 500px;
+    width: 425px;
+}
+
+#SpiderImg
+{
+    width: 445px;
 }
