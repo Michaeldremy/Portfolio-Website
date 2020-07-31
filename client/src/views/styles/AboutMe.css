@@ -1,0 +1,88 @@
+#sec1Photo
+{
+    border-radius: 15%;
+    width: 250px;
+}
+
+.boxSection
+{
+    margin-top: 40px;
+    width: 55%;
+    height: 410px;
+    background-color: rgba(0, 0, 0, 0.808);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3
+{
+    font-size: 70px;
+    padding: 0%;
+    margin: 0;
+    font-family: sans-serif;
+    color: #EE9033;
+}
+
+h4
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    padding: 0%;
+    margin: 0;
+}
+
+h5
+{
+    font-size: 30px;
+    color: #EE9033;
+    padding: 0%;
+    margin: 0;
+}
+
+.react_icon
+{
+    height: 100px;
+    position: absolute;
+    left: 30%;
+}
+
+.redux_icon
+{
+    height: 80px;
+    position: absolute;
+    left: 38.75%;
+    margin-top: 10px;
+}
+
+.html_icon
+{
+    height: 80px;
+    position: absolute;
+    left: 46.25%;
+    margin-top: 8px;
+}
+
+.css_icon
+{
+    height: 80px;
+    position: absolute;
+    left: 53.5%;
+    margin-top: 8px;
+}
+
+.python_icon
+{
+    height: 80px;
+    position: absolute;
+    left: 57.75%;
+    margin-top: 11px;
+}
+
+.cSharp_icon
+{
+    height: 80px;
+    position: absolute;
+    left: 66%;
+    margin-top: 10px;
+}

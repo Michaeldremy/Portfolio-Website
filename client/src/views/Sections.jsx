@@ -1,8 +1,5 @@
 import React from 'react';
 import './styles/SectionsStyle.css';
-import Fade from 'react-reveal/Fade';
-import LightSpeed from 'react-reveal/LightSpeed';
-import Michael_Remy from '../imgs/Michael_Remy.jpg';
 import Covid19PhotoR from '../imgs/Covid19PhotoR.png';
 import SpiderGame from '../imgs/SpiderGame.JPG';
 import ContactUs from '../components/ContactForm.js';
@@ -15,6 +12,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import gym_bro from '../imgs/gym_bro.JPG';
+import AboutMe from '../components/AboutMe';
+import Pulse from 'react-reveal/Pulse';
 
 const Sections = () => {
 
@@ -53,18 +52,16 @@ const Sections = () => {
                 </div>
             </div>
             <section id="sec1">
-                <div className="row text-center pt-5">
-                    <div className="col-12 pt-5">
-                        <img id="sec1Photo" src={Michael_Remy} alt="" className="" />
-                        <Fade top cascade> <h1 className="pt-4">Michael Remy</h1></Fade>
-                        <LightSpeed left cascade> <h2 className="pt-4">Full Stack Developer</h2> </LightSpeed>
-                    </div>
-                </div>
+                <AboutMe/>
             </section>
             <section id="sec2">
                 <div className="row pt-5">
                     <div className="col-md-12">
+                        <div className="boxDeploy">
+                        <Pulse>
                         <p className={classes.info}>Click on the photos to go to the deployed websites!</p>
+                        </Pulse>
+                        </div>
                     </div>
                 </div>
                 <div id="section2" className="row text-center">
