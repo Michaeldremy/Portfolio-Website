@@ -5,12 +5,14 @@ textarea
 
 #FormH1
 {
+    color: white;
     font-size: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #FormP
-{
+{   
+    color: white;
     font-size: 30px;
 }
 

@@ -1,34 +1,41 @@
-import React from 'react';
-import LightSpeed from 'react-reveal/LightSpeed';
-import Michael_Remy from '../imgs/Michael_Remy.jpg';
+import React, {useEffect} from 'react';
 import '../views/styles/AboutMe.css';
-import react_icon from '../imgs/react_icon.png';
-import redux_icon from '../imgs/redux_icon.png';
-import html_icon from '../imgs/html_icon.png'
-import css_icon from '../imgs/css_icon.png'
-import cSharp_icon from '../imgs/cSharp_icon.png';
-import python_icon from '../imgs/python_icon.png';
+import csharp from '../imgs/csharp.png'
+import css from '../imgs/css.png'
+import html from '../imgs/html.png'
+import reactimg from '../imgs/reactimg.png'
+import redux from '../imgs/redux.png'
+import python from '../imgs/python.png'
+import django from '../imgs/django.png'
 
 function AboutMe() {
+
+    useEffect(() => {
+        document.addEventListener("mousemove", parallax);
+        function parallax(e){
+            this.querySelectorAll('.layer').forEach(layer => {
+                const speed = layer.getAttribute('data-speed')
+
+                const x = (window.innerWidth - e.pageX*speed)/100
+                const y = (window.innerWidth - e.pageY*speed)/100
+
+                layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+            })
+        }
+    }, []);
+
     return (
         <div>
-            <div className="row text-center pt-5">
-                <div className="col-12 pt-5">
-                    <img id="sec1Photo" src={Michael_Remy} alt="" className="" />
-                    <div className="boxSection">
-                        <LightSpeed left cascade> <h3 className="">Michael Remy</h3></LightSpeed>
-                        <LightSpeed left cascade> <h4 className="">Full Stack Developer</h4> </LightSpeed>
-                        <h5>***************************************************</h5>
-                        <h4>React | Redux | HTML | CSS | Python | C#</h4>
-                        <img src={react_icon} alt="react icon" className="react_icon"/>
-                        <img src={redux_icon} alt="redux icon" className="redux_icon"/>
-                        <img src={html_icon} alt="html icon" className="html_icon"/>
-                        <img src={css_icon} alt="css icon" className="css_icon"/>
-                        <img src={python_icon} alt="python icon" className="python_icon"/>
-                        <img src={cSharp_icon} alt="c# icon" className="cSharp_icon"/>
-                    </div>
-                </div>
-            </div>
+            <section id="SectionAboutMe">
+                <img src={reactimg} alt="" data-speed="3" className="layer"/>
+                <img src={django} alt="" data-speed="2" className="layer"/>
+                <img src={redux} alt="" data-speed="2" className="layer"/>
+                <img src={html} alt="" data-speed="-3" className="layer"/>
+                <img src={css} alt="" data-speed="5" className="layer"/>
+                <img src={python} alt="" data-speed="-3" className="layer"/>
+                <img src={csharp} alt="" data-speed="-4" className="layer"/>
+                <h3 className="" data-speed="1">Michael Remy</h3>
+            </section>
         </div>
     )
 }

@@ -2,10 +2,146 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.h5ProjectHeader{
+    font-size: 65px;
+    color: #f1ae1c;
+    font-weight: 300;
+}
+
+#gymbroImg{
+    margin-top: 9.5%;
+    height: 400px;
+}
+
+.h5GymBro{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 4%;
+    margin-left: 13%;
+    color: #f1ae1c;
+}
+
+.projectBoxGymBro{
+    height: 200px;
+    padding: 35px 35px 35px 35px;
+    width: 600px;
+    margin-left: 24.5%;
+    color: rgb(3, 25, 43);
+    background: #f1ae1c;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.projectBoxGymBro h6{
+    font-size: 22px;
+}
+
+.h3GymBro{
+    margin-top: 1%;
+    font-size: 22px;
+    color: rgba(238, 238, 238, 0.863);
+    margin-left: 51%;
+}
+
+#GymBroGitHubIconBorder{
+    margin-left: 72%;
+    margin-top: 1%;
+    padding: 3px;
+    background: white;
+    height: 45px;
+}
+
+#covidImg{
+    margin-top: 30%;
+    margin-left: 14%;
+    height: 400px;
+}
+
+.h5Covid{
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 4%;
+    margin-left: 0%;
+    color: #f1ae1c;
+}
+
+.projectBoxCovid{
+    height: 175px;
+    padding: 35px 35px 35px 35px;
+    width: 600px;
+    margin-left: 17%;
+    color: rgb(3, 25, 43);
+    background: #f1ae1c;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.projectBoxCovid h6{
+    font-size: 22px;
+}
+
+.h3Covid{
+    margin-top: 1%;
+    font-size: 22px;
+    color: rgba(238, 238, 238, 0.863);
+    margin-right: 27%;
+}
+
+#CovidGitHubIconBorder{
+    margin-top: 1%;
+    margin-right: 61%;
+    padding: 3px;
+    background: white;
+    height: 45px;
+}
+
+.h5Spider{
+    margin-top: 25%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 4%;
+    margin-left: 0%;
+    color: #f1ae1c;
+}
+
+.projectBoxSpider{
+    height: 200px;
+    padding: 35px 35px 35px 35px;
+    width: 600px;
+    margin-left: 20.5%;
+    color: rgb(3, 25, 43);
+    background: #f1ae1c;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.projectBoxSpider h6{
+    font-size: 22px;
+}
+
+.h3Spider{
+    margin-top: 1%;
+    font-size: 22px;
+    color: rgba(238, 238, 238, 0.863);
+    margin-left: 45.5%;
+}
+
+#SpiderGitHubIconBorder{
+    margin-left: 64%;
+    margin-top: 1%;
+    padding: 3px;
+    background: white;
+    height: 45px;
+}
+
+#SpiderImg{
+    margin-top: 35%;
+    height: 400px;
 }
 
 h1
@@ -13,13 +149,6 @@ h1
     font-size: 100px;
 }
 
-h2
-{
-    font-family: sans-serif;
-    font-size: 45px;
-    font-style: italic;
-    color: #EE9033;
-}
 
 p
 {
@@ -35,7 +164,7 @@ section{
 
 section:nth-child(odd)
 {
-    background-color: #EE9033;
+    background-color: rgb(5, 38, 65);
 }
 
 
@@ -46,11 +175,9 @@ section:nth-child(odd)
     justify-content: space-around;
 }
 
-#section2-5
-{
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
+#sec2{
+    height: 250vh;
+    padding-top: 6%;
 }
 
 
@@ -84,14 +211,9 @@ a:hover
     text-decoration: none;
 }
 
-.boxDeploy
-{   
-    margin-top: 5%;
-    width: 30%;
-    height: 35px;
-    background-color: rgb(250,250,250);
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 0px;
 
+#sec3{
+    height: 100vh;
+    background: linear-gradient(to bottom,rgba(0,0,0,.8), rgba(0,0,0,.5)), url("https://images.unsplash.com/photo-1592781959445-63e59ba0666d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") center no-repeat;
+    background-size: cover;
 }

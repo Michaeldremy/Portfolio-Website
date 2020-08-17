@@ -27,7 +27,7 @@ export default function ContactUs() {
     }
     
     return (
-        <div>
+    <div className="BackgroundImg">
         <div className="container">
             <div className="row text-center pt-5 pb-5">
                 <div className="col-12 pt-5">
