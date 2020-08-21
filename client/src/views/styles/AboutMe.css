@@ -13,6 +13,151 @@ html, body{
     overflow-x: hidden;
 }
 
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.main-nav{
+    width: 100%;
+    height: 4rem;
+    padding: 0 2.5rem;
+    background: #26383f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo a{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    color: #feffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: .75rem 0rem;
+}
+
+.logo a:hover{
+    color: #feffff;
+}
+
+header h1{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #feffff;
+    position: absolute;
+    font-weight: 200;
+    right: 0;
+    top: 0;
+    padding-top: 1.1rem;
+    padding-right: 5.5rem;
+}
+
+.hamburger-menu{
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: #eee;
+    border-radius: .3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.hamburger-menu:hover{
+    box-shadow: inset .5rem .5rem 1rem #cacaca, inset -.5rem -.5rem 1rem #fff;
+}
+
+.bar{
+    width: 1rem;
+    height: 2px;
+    background-color: #333;
+    display: flex;
+    position: absolute;
+    transition: background-color .5s;
+}
+
+.bar::before,
+.bar::after{
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: #333;
+    transition: all .5s;
+}
+
+.bar::before{
+    top: -.6rem;
+}
+
+.bar::after{
+    top: .6rem;
+}
+
+.open .bar{
+    background-color: transparent;
+}
+
+.open .bar::before{
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.open .bar::after{
+    top: 0;
+    transform: rotate(-135deg);
+}
+
+.nav-list{
+    width: 35rem;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #17252a;
+    transform: translateX(55rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -.5rem 0 1rem rgba(0, 0, 0, .2);
+    z-index: 1500;
+    transition: transform .5s;
+}
+
+.nav-item{
+    list-style: none;
+    border-bottom: 2px solid #2692c0;
+}
+
+.nav-item a{
+    color: #feffff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.nav-item a:hover{
+    color: #feffff;
+}
+
+.nav-list .nav-item:hover{
+    border-bottom: 2px solid #17252a;
+}
+
+.open .nav-list{
+    transform: translateX(0);
+}
+
+/* nav bar ends */
+
 .container-fluid {
     padding-right:0;
     padding-left:0;
@@ -23,7 +168,7 @@ html, body{
 section .intro-container{
     max-width: 100%;
     height: 100vh;
-    max-height: 100vh;
+;
     background-color: #3AAFA9;
 }
 
@@ -146,7 +291,7 @@ section .about-me-header{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 5rem;
+    margin-top: 4rem;
     font-weight: 600;
     letter-spacing: 6px;
     margin-left: 6px;
@@ -156,7 +301,7 @@ section .about-me-header{
 
 section .line{
     position: absolute;
-    margin-top: 10rem;
+    margin-top: 9rem;
     left: 50%;
     transform: translateX(-50%);
     width: 13%;
@@ -166,7 +311,7 @@ section .line{
 
 section #info-text-container{
     position: absolute;
-    padding-top: 12rem;
+    padding-top: 10rem;
     width: 50%;
     left: 50%;
     transform: translateX(-50%);
@@ -191,7 +336,7 @@ section .line-bottom{
 
 section .social-media-container{
     position: absolute;
-    margin-top: 36.5rem;
+    margin-top: 33.5rem;
     margin-left: .8rem;
     left: 50%;
     transform: translateX(-50%);
@@ -584,21 +729,72 @@ section .contact-footer-container{
 section .contact-container{
     padding-top: 8rem;
     height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section .contact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 7rem;
 }
 
 section .contact-container h1{
-    font-size: 25px;
+    font-size: 28px;
     color: #feffff;
     text-transform: uppercase;
+    padding-right: 10rem;
 }
 
 section .contact-container p{
-    width: 50%;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: flex-end;
+    font-size: 24px;
+    padding-left: 12rem;
     color: #feffff;
+}
+
+section .contact-social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10rem;
+    text-decoration: none;
+}
+
+section .contact-social-links a:hover{
+    color: #feffff;
+}
+
+section .email-button{
+    padding: 1rem 6rem;
+    margin-bottom: 2rem;
+    background: transparent;
+    box-shadow: inset 0 0 0 2px #3fe2e2;
+    color: #feffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+section .email-button:hover{
+    box-shadow: inset 0 0 0 2px #feffff;
+}
+
+section .linkedin-button{
+    padding: 1rem 5.2rem;
+    margin-bottom: 2rem;
+    background: transparent;
+    box-shadow: inset 0 0 0 2px #ff2f0a;
+    color: #feffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+section .linkedin-button:hover{
+    box-shadow: inset 0 0 0 2px #feffff;
 }
 
 section .footer-container{
@@ -614,6 +810,193 @@ section .footer-container h1{
     text-transform: uppercase;
 }
 
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+    section .intro-container {
+        max-width: 100%;
+        height: auto;
+        max-height: auto;
+        background-color: #3AAFA9;
+    }
+
+    section .wrapper{
+        height: 0;
+    }
+
+    section .full-name{
+        margin-top: 6rem;
+        font-size: 2.25rem;
+    }
+
+    section .sub-name{
+        font-size: 1.5rem;
+    }
+
+    section .learn-more{
+        visibility: hidden;
+    }
+
+    section #arrow-icon{
+        visibility: hidden;
+    }
+    
+    section .box-area{
+        visibility: hidden;
+    }
+
+    section .about-me-header{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        font-size: 30px;
+    }
+
+    section .line{
+        margin-top: 6rem;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .line-bottom{
+        margin-top: 2rem;
+    }
+
+    section #info-text-container{
+        width: 100%;
+        margin-top: 0;
+        padding-top: 8rem;
+    }
+
+    section #info-text-container h5{
+        font-size: 1.6rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    section .social-media-container a{
+        margin-top: 4rem;
+        font-size: 5px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    
+        .main-nav{
+        width: 100%;
+        height: 6rem;
+        padding: 0 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-list{
+        width: 12rem;
+        height: 46vh;
+        max-height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #17252a;
+        transform: translateX(55rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: -.5rem 0 1rem rgba(0, 0, 0, .2);
+        z-index: 1500;
+        transition: transform .5s;
+    }
+
+    .nav-item a{
+        font-size: .8rem;
+    }
+    
+    section .intro-container {
+        max-width: 100%;
+        height: auto;
+        max-height: auto;
+        background-color: #3AAFA9;
+    }
+
+    section .wrapper{
+        height: 0;
+    }
+
+    section .full-name{
+        margin-top: 6rem;
+        font-size: 2.25rem;
+    }
+
+    section .sub-name{
+        font-size: 1.5rem;
+    }
+
+    section .learn-more{
+        visibility: hidden;
+    }
+
+    section #arrow-icon{
+        visibility: hidden;
+    }
+    
+    section .box-area{
+        visibility: hidden;
+    }
+
+    section .about-me-container{
+        max-width: 100%;
+        height: 70vh;
+        padding-top: 3rem;
+    }
+
+    section .about-me-header{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        font-size: 26px;
+    }
+
+    section .line{
+        margin-top: 6rem;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .line-bottom{
+        margin-top: 2rem;
+    }
+
+    section #info-text-container{
+        width: 100%;
+        margin-top: 0;
+        padding-top: 8rem;
+    }
+
+    section #info-text-container h5{
+        font-size: 1.1rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .social-media-container a svg{
+        visibility: hidden;
+    }
+}
+
+/* @media only screen and (min-width: 769px){
+    section .intro-container {
+        max-width: 100%;
+        height: auto;
+        max-height: auto;
+        background-color: #3AAFA9;
+    }
+} */
 
 /* old portfolio css starts */
 
