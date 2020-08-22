@@ -1752,7 +1752,7 @@ section .footer-container h1{
         font-weight: 100;
         letter-spacing: 2px;
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         text-align: center;
     }
     
@@ -1802,7 +1802,7 @@ section .footer-container h1{
     
     section .project-two-container h5{
         position: absolute;
-        top: 13.5rem;
+        top: 13rem;
         color: #feffff;
         width: 100%;
         padding: 0 3rem 0 1rem;

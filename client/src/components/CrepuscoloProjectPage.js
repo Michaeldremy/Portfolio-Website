@@ -76,7 +76,7 @@ function CrepuscoloProjectPage() {
                     <div className='player-wrapper'>
                         <ReactPlayer
                         className='react-player'
-                        url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                        url='https://www.youtube.com/watch?v=_qFaD8Xc2Hc&feature=youtu.be'
                         width='100%'
                         height='100%'
                         controls={true}
