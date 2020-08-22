@@ -161,7 +161,7 @@ function AboutMe() {
                             and view a graphical representation of their workout stats.
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/Gym_Bro_Python_Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="/gym-bro-project">View Project Demo</a>
+                            Github: <a href="https://github.com/Michaeldremy/Gym_Bro_Python_Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="GymBroProjectPage.js">View Project Demo</a>
                         </p>
                     </div>
                 </div>

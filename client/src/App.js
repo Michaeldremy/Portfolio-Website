@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Router>
         <Sections path="/Portfolio-Website" />
-        <GymBroProjectPage path="/gym-bro-project"/>
+        <GymBroProjectPage path="/GymBroProjectPage.js"/>
         <CovidTrackerProjectPage path="/covid-tracker-project"/>
         <CrepuscoloProjectPage path="/crepuscolo-project"/>
         <SpiderQueenProjectPage path="/spider-queen-project"/>
