@@ -53,7 +53,7 @@ html, body{
 }
 
 .project-details-container{
-    height: 170vh;
+    height: 150vh;
 }
 
 .project-details-container h2{
@@ -90,8 +90,17 @@ html, body{
     text-align: start;
 }
 
-#detail-points{
-    list-style: circle;
+.project-details-container .detail-points-container{
+    padding-left: 26.6rem;
+    padding-right: 25rem;
+    text-align: start;
+}
+
+.detail-points{
+    list-style: disc;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgba(51, 50, 50, 0.925);
 }
 
 
@@ -112,7 +121,8 @@ html, body{
     }
 
     .player-wrapper{
-        width: 70rem;
+        padding: 0 2rem;
+        width: 100%;
         height: 40rem;
     }
     
@@ -128,7 +138,7 @@ html, body{
     .line-bottom-video{
         margin-top: 5rem;
         height: 2px;
-        width: 88%;
+        width: 97%;
         margin-left: auto;
         margin-right: auto;
         background: rgba(99, 97, 97, 0.692);
@@ -141,6 +151,23 @@ html, body{
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 600;
         text-align: start;
+    }
+
+    .project-details-container{
+        height: 155vh;
+    }
+
+    .project-details-container .detail-points-container{
+        padding-left: 3.25rem;
+        padding-right: 3.25rem;
+        text-align: start;
+    }
+    
+    .detail-points{
+        list-style: disc;
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: rgba(51, 50, 50, 0.925);
     }
 }
 
@@ -165,7 +192,7 @@ html, body{
     
     .player-wrapper{
         padding: 0 2rem;
-        height: 45rem;
+        height: 40rem;
     }
 
     .project-details-container h2{
@@ -194,6 +221,23 @@ html, body{
         font-weight: 600;
         text-align: start;
     }
+
+    .project-details-container{
+        height: 165vh;
+    }
+
+    .project-details-container .detail-points-container{
+        padding-left: 3.25rem;
+        padding-right: 3.25rem;
+        text-align: start;
+    }
+    
+    .detail-points{
+        list-style: disc;
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: rgba(51, 50, 50, 0.925);
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -209,6 +253,33 @@ html, body{
     
     .main-nav h1{
         visibility: hidden;
+    }
+
+    .title-container h1{
+        margin-top: 17rem;
+        width: 100%;
+        font-size: 1.7rem;
+        padding: 0 2rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .title-container p{
+        margin-top: 22rem;
+        width: 100%;
+        font-size: 1rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
     }
     
     .player-wrapper{
@@ -242,6 +313,19 @@ html, body{
         font-weight: 600;
         text-align: start;
     }
+
+    .project-details-container .detail-points-container{
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        text-align: start;
+    }
+    
+    .detail-points{
+        list-style: disc;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: rgba(51, 50, 50, 0.925);
+    }
 }
 
 
@@ -268,7 +352,8 @@ html, body{
     .title-container h1{
         margin-top: 17rem;
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        padding: 0 2rem;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -318,9 +403,26 @@ html, body{
         text-align: start;
     }
 
+    
     .player-wrapper{
         padding: 0 2rem;
         height: 20rem;
     }
+    
+    .project-details-container{
+        height: 140vh;
+    }
 
+    .project-details-container .detail-points-container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: start;
+    }
+    
+    .detail-points{
+        list-style: disc;
+        font-weight: 500;
+        font-size: .95rem;
+        color: rgba(51, 50, 50, 0.925);
+    }
 }

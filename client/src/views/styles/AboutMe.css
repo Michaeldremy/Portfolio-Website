@@ -300,46 +300,30 @@ section .about-me-header{
 }
 
 section .line{
-    position: absolute;
-    margin-top: 9rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 13%;
+    margin: 10rem auto 0 auto;
     height: 3px;
     background-color: rgba(66, 66, 66, 0.705);
 }
 
 section #info-text-container{
-    position: absolute;
-    padding-top: 10rem;
-    width: 50%;
-    left: 50%;
-    transform: translateX(-50%);
+    padding-top: 2rem;
+    margin: 0 auto;
 }
 
 section #info-text-container h5{
     font-size: 1.5rem;
     color: #feffffc7;
-    margin: 1rem;
+    margin: 2rem;
     font-weight: 400;
 }
 
 section .line-bottom{
-    position: absolute;
-    margin-top: 3rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 65%;
-    height: 3px;
-    background-color: rgba(66, 66, 66, 0.63);
+    margin: 5rem auto;
+    border-bottom: 3px solid rgba(66, 66, 66, 0.63);
 }
 
 section .social-media-container{
-    position: absolute;
-    margin-top: 33.5rem;
-    margin-left: .8rem;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: .7rem;
 }
 
 section #scroll-container{
@@ -459,11 +443,11 @@ section .project-one-container{
 }
 
 section .gym-bro-image img{
-    height: 484px;
+    height: 50.75%;
 }
 
 section .project-one-container h1{
-    margin-top: 6rem;
+    margin-top: 4.5rem;
     color: #feffff;
     font-weight: 600;
     letter-spacing: 2px;
@@ -474,7 +458,8 @@ section .project-one-container h1{
 
 section .project-one-container h5{
     margin-top: 4.5rem;
-    width: 75%;
+    width: 100%;
+    padding: 0 7rem;
     margin-left: auto;
     margin-right: auto;
     color: #feffff;
@@ -701,7 +686,7 @@ section .resume-container .line{
 }
 
 section .resume-links{
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 
 section .resume-links a{
@@ -812,6 +797,522 @@ section .footer-container h1{
 
 /* media queries */
 
+@media only screen and (max-width: 1440px) {
+    
+    section .wrapper{
+        margin-top: 9rem;
+        height: 0;
+    }
+
+    section .full-name{
+        margin-top: 20rem;
+        font-size: 4.5rem;
+    }
+
+    section .sub-name{
+        font-size: 1.75rem;
+    }
+
+    section .learn-more{
+        margin-top: .25rem;
+    }
+    
+    section .line{
+        margin: 8rem auto 0 auto;
+        height: 3px;
+        background-color: rgba(66, 66, 66, 0.705);
+    }
+
+    section .line-bottom{
+        margin: 4.5em auto;
+        border-bottom: 3px solid rgba(66, 66, 66, 0.63);
+    }
+    
+    .arrow span{
+        margin-top: 4rem;
+    }
+
+    section .project-one-container{
+        height: 43vh;
+        width: 100%;
+        background: #17252a;
+    }
+    
+    section .gym-bro-image img{
+        height: 41.75%;
+    }
+    
+    section .project-one-container h1{
+        margin-top: 2.6rem;
+        padding: 0 6rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    
+    section .project-one-container h5{
+        margin-top: 3.5rem;
+        width: 100%;
+        padding: 0 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        color: #feffff;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    section .project-one-container p{
+        margin-top: 2rem;
+        color: #feffff;
+        padding: 0 5rem;
+        font-size: 20px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+
+    section .project-two-container{
+        height: 43vh;
+        width: 100%;
+        background: #1d2a30;
+    }
+
+    section .covid-image img{
+        height: 41.25%;
+        padding: 0;
+        margin: 0;
+    }
+
+    section .project-two-container h1{
+        margin-top: 2.5rem;
+        padding: 0 6rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+
+    
+    section .project-two-container h5{
+        margin-top: 5rem;
+        width: 100%;
+        padding: 0 8rem 0 9rem;
+        margin-left: auto;
+        margin-right: auto;
+        color: #feffff;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    section .project-two-container p{
+        margin-top: 4rem;
+        color: #feffff;
+        padding: 0 5rem;
+        font-size: 20px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+
+    section .project-three-container{
+        height: 43vh;
+        width: 100%;
+        background: #17252a;
+    }
+    
+    section .crepuscolo-image img{
+        height: 63%;
+    }
+    
+    section .project-three-container h1{
+        margin-top: 3rem;
+        padding: 0 8rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    
+    section .project-three-container h5{
+        margin-top: 3.5rem;
+        width: 100%;
+        padding: 0 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        color: #feffff;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    section .project-three-container p{
+        margin-top: 5rem;
+        color: #feffff;
+        padding: 0 5rem;
+        font-size: 20px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+
+    section .project-four-container{
+        height: 43vh;
+        width: 100%;
+        background: #1d2a30;
+    }
+
+    section .spider-image img{
+        height: 77.75%;
+        padding: 0;
+        margin: 0;
+    }
+
+    section .project-four-container h1{
+        margin-top: 3rem;
+        padding: 0 6rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+
+    
+    section .project-four-container h5{
+        margin-top: 5rem;
+        width: 100%;
+        padding: 0 8rem 0 9rem;
+        margin-left: auto;
+        margin-right: auto;
+        color: #feffff;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    section .project-four-container p{
+        margin-top: 4rem;
+        color: #feffff;
+        padding: 0 5rem;
+        font-size: 20px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+
+    section .resume-container h1{
+        margin-top: 4rem;
+    }
+
+    section .resume-links{
+        margin-top: 3rem;
+    }
+
+    section .contact-text h1{
+        font-size: 2rem;
+        padding-right: 6.5rem;
+    }
+
+    section .contact-text p{
+        font-size: 1.5rem;
+        width: 100%;
+        padding-left: 15rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+    section .wrapper{
+        height: 0;
+    }
+
+    section .full-name{
+        margin-top: 18rem;
+        font-size: 4rem;
+    }
+
+    section .sub-name{
+        font-size: 1.75rem;
+    }
+
+    section .learn-more{
+        margin-top: 3.5rem;
+    }
+    
+    section .wrapper{
+        margin-top: 9rem;
+    }
+    
+    section .line{
+        margin: 10rem auto 0 auto;
+        height: 3px;
+        background-color: rgba(66, 66, 66, 0.705);
+    }
+    
+    section #info-text-container{
+        padding-top: 0rem;
+        margin: 0 auto;
+    }
+    
+    section #info-text-container h5{
+        font-size: 1.4rem;
+        color: #feffffc7;
+        margin: 2rem;
+        font-weight: 400;
+    }
+    
+    section .line-bottom{
+        margin: 3em auto;
+        border-bottom: 3px solid rgba(66, 66, 66, 0.63);
+    }
+
+    .arrow span{
+        margin-top: 4rem;
+    }
+
+    section .gym-bro-image img{
+        height: 24%;
+        padding: 1rem;
+    }
+
+    section .project-one-container h1{
+        position: absolute;
+        width: 100%;
+        top: -49.5rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    section .project-one-container h5{
+        position: absolute;
+        top: -48.5rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    section .project-one-container p{
+        position: absolute;
+        top: -42rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 18px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #sec1 > div > section.container-fluid.project-one-container > div > div.col-xs-12.col-sm-12.col-md-7.text-center.gym-bro-text > p > a:nth-child(1) > svg{
+        height: 1rem;
+    }
+
+    section .project-two-container a{
+        color: #feffff;
+        text-decoration: underline;
+        text-decoration-color: #3AAFA9;
+    }
+
+    section .covid-image img{
+        height: 24%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    section .project-two-container{
+        height: 50vh;
+        width: 100%;
+        background: #1d2a30;
+    }
+
+    section .project-two-container h1{
+        position: absolute;
+        margin-top: 4rem;
+        width: 100%;
+        top: 11rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    section .project-two-container h5{
+        position: absolute;
+        top: 14.75rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    section .project-two-container p{
+        position: absolute;
+        top: 20rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 18px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #sec1 > div > section.container-fluid.project-two-container > div > div.col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-7.text-center.covid-image-text > p > a:nth-child(1) > svg {
+        height: 1.5rem;
+    }
+
+    section .crepuscolo-image img{
+        height: 32%;
+        padding: 1rem;
+    }
+
+    section .project-three-container h1{
+        position: absolute;
+        margin-top: 4rem;
+        width: 100%;
+        top: -32rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    section .project-three-container h5{
+        position: absolute;
+        margin-top: 1.25rem;
+        top: -26rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 5rem 0 3rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    section .project-three-container p{
+        position: absolute;
+        margin-top: 1.5rem;
+        top: -22rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 18px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    section .spider-image img{
+        height: 38%;
+        padding: 1rem;
+    }
+
+    section .project-four-container h1{
+        position: absolute;
+        width: 100%;
+        margin-top: 13rem;
+        top: 0;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    section .project-four-container h5{
+        position: absolute;
+        margin-top: 16.25rem;
+        top: 0;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    section .project-four-container p{
+        position: absolute;
+        margin-top: 21rem;
+        top: 0;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 18px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    section .resume-container h1{
+        margin-top: 4rem;
+    }
+
+    section .resume-links{
+        margin-top: 3rem;
+    }
+
+    section .contact-text h1{
+        font-size: 1.8rem;
+        padding-right: 5rem;
+    }
+
+    section .contact-text p{
+        font-size: 1.25rem;
+        width: 100%;
+        padding-left: 6rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     section .intro-container {
         max-width: 100%;
@@ -820,12 +1321,20 @@ section .footer-container h1{
         background-color: #3AAFA9;
     }
 
+    section .mouse{
+        visibility: hidden;
+    }
+
+    section .arrow{
+        visibility: hidden;
+    }
+
     section .wrapper{
         height: 0;
     }
 
     section .full-name{
-        margin-top: 6rem;
+        margin-top: 10rem;
         font-size: 2.25rem;
     }
 
@@ -853,38 +1362,270 @@ section .footer-container h1{
     }
 
     section .line{
-        margin-top: 6rem;
-        width: 25%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 8rem auto 0 auto;
+        height: 3px;
+        background-color: rgba(66, 66, 66, 0.705);
     }
-
-    section .line-bottom{
-        margin-top: 2rem;
-    }
-
+    
     section #info-text-container{
-        width: 100%;
-        margin-top: 0;
-        padding-top: 8rem;
+        padding-top: 1rem;
+        margin: 0 auto;
     }
-
+    
     section #info-text-container h5{
-        font-size: 1.6rem;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 1.4rem;
+        color: #feffffc7;
+        margin: 2rem;
+        font-weight: 400;
+    }
+    
+    section .line-bottom{
+        margin: 4rem auto;
+        border-bottom: 3px solid rgba(66, 66, 66, 0.63);
     }
     
     section .social-media-container a{
         margin-top: 4rem;
         font-size: 5px;
     }
+
+    section .gym-bro-image img{
+        height: 22%;
+        padding: 1rem;
+    }
+
+    section .project-one-container h1{
+        position: absolute;
+        width: 100%;
+        top: -50.25rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    section .project-one-container h5{
+        position: absolute;
+        top: -48.75rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    section .project-one-container p{
+        position: absolute;
+        top: -42.25rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 18px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #sec1 > div > section.container-fluid.project-one-container > div > div.col-xs-12.col-sm-12.col-md-7.text-center.gym-bro-text > p > a:nth-child(1) > svg{
+        height: 1rem;
+    }
+
+    /* project one ends */
+
+    section .project-two-container{
+        height: 50vh;
+        width: 100%;
+        background: #1d2a30;
+    }
+
+    section .project-two-container a{
+        color: #feffff;
+        text-decoration: underline;
+        text-decoration-color: #3AAFA9;
+    }
+
+    section .covid-image img{
+        height: 23%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    section .project-two-container h1{
+        position: absolute;
+        margin-top: 4rem;
+        width: 100%;
+        top: 11rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    section .project-two-container h5{
+        position: absolute;
+        top: 14.25rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    section .project-two-container p{
+        position: absolute;
+        top: 20rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 18px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #sec1 > div > section.container-fluid.project-two-container > div > div.col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-7.text-center.covid-image-text > p > a:nth-child(1) > svg {
+        height: 1.5rem;
+    }
+
+    /* project two ends */
+
+    section .crepuscolo-image img{
+        height: 33%;
+        padding: 1rem;
+    }
+
+    section .project-three-container h1{
+        position: absolute;
+        margin-top: 5rem;
+        width: 100%;
+        top: -33rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    section .project-three-container h5{
+        position: absolute;
+        top: -26rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    section .project-three-container p{
+        position: absolute;
+        top: -22rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 18px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    section .spider-image img{
+        height: 38%;
+        padding: 1rem;
+    }
+
+    section .project-four-container h1{
+        position: absolute;
+        width: 100%;
+        margin-top: 13rem;
+        top: 0;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    section .project-four-container h5{
+        position: absolute;
+        margin-top: 16.25rem;
+        top: 0;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    section .project-four-container p{
+        position: absolute;
+        margin-top: 21rem;
+        top: 0;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 18px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    section .resume-container h1{
+        margin-top: 4rem;
+    }
+
+    section .resume-links{
+        margin-top: 3rem;
+    }
+
+    section .contact-social-links {
+        padding: 0 5.5rem;
+    }
+
+    section .contact-text{
+        font-size: 1.8rem;
+        padding-right: 0rem;
+    }
+
+    section .contact-text h1{
+        font-size: 1.8rem;
+        padding-right: 7rem;
+        align-items: center;
+    }
+
+    section .contact-text p{
+        font-size: 1.25rem;
+        width: 100%;
+        padding-left: 0rem;
+        align-items: center;
+    }
+    
 }
 
 @media only screen and (max-width: 576px) {
     
-        .main-nav{
+    .main-nav{
         width: 100%;
         height: 6rem;
         padding: 0 2.5rem;
@@ -917,8 +1658,6 @@ section .footer-container h1{
     
     section .intro-container {
         max-width: 100%;
-        height: auto;
-        max-height: auto;
         background-color: #3AAFA9;
     }
 
@@ -927,7 +1666,7 @@ section .footer-container h1{
     }
 
     section .full-name{
-        margin-top: 6rem;
+        margin-top: 11rem;
         font-size: 2.25rem;
     }
 
@@ -954,49 +1693,283 @@ section .footer-container h1{
     }
 
     section .about-me-header{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 26px;
     }
 
+    
     section .line{
-        margin-top: 6rem;
-        width: 25%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 6rem auto 0 auto;
+        height: 3px;
+        background-color: rgba(66, 66, 66, 0.705);
     }
-
-    section .line-bottom{
-        margin-top: 2rem;
-    }
-
+    
     section #info-text-container{
-        width: 100%;
-        margin-top: 0;
-        padding-top: 8rem;
+        padding-top: 0rem;
+        margin: 0 auto;
     }
-
+    
     section #info-text-container h5{
-        font-size: 1.1rem;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 1rem;
+        color: #feffffc7;
+        margin: 2rem;
+        font-weight: 400;
+    }
+    
+    section .line-bottom{
+        margin: 3rem auto;
+        border-bottom: 3px solid rgba(66, 66, 66, 0.63);
     }
 
     section .social-media-container a svg{
         visibility: hidden;
     }
-}
 
-/* @media only screen and (min-width: 769px){
-    section .intro-container {
-        max-width: 100%;
-        height: auto;
-        max-height: auto;
-        background-color: #3AAFA9;
+    section .gym-bro-image img{
+        height: 20%;
+        padding: 1rem;
     }
-} */
+
+    section .project-one-container h1{
+        position: absolute;
+        width: 100%;
+        top: -51.5rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    
+    section .project-one-container h5{
+        position: absolute;
+        top: -49rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    section .project-one-container p{
+        position: absolute;
+        top: -41.75rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 12px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #sec1 > div > section.container-fluid.project-one-container > div > div.col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-7.text-center.gym-bro-text > p > a:nth-child(1) > svg{
+        height: 1rem;
+    }
+
+    /* project one ends */
+    
+    section .project-two-container a{
+        color: #feffff;
+        text-decoration: underline;
+        text-decoration-color: #3AAFA9;
+    }
+
+    section .covid-image img{
+        height: 20%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    section .project-two-container h1{
+        position: absolute;
+        width: 100%;
+        margin-top: 6rem;
+        top: 7rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    
+    section .project-two-container h5{
+        position: absolute;
+        top: 13.5rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    section .project-two-container p{
+        position: absolute;
+        top: 20rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 12px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #sec1 > div > section.container-fluid.project-two-container > div > div.col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-7.text-center.covid-image-text > p > a:nth-child(1) > svg {
+        height: 1rem;
+    }
+
+    /* project two ends */
+
+    section .crepuscolo-image img{
+        height: 30%;
+        padding: 1rem;
+    }
+
+
+    section .project-three-container h1{
+        position: absolute;
+        width: 100%;
+        top: -34rem;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    section .project-three-container h5{
+        position: absolute;
+        top: -26rem;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    section .project-three-container p{
+        position: absolute;
+        top: -21.5rem;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 12px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #sec1 > div > section.container-fluid.project-three-container > div > div.col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-7.text-center.crepuscolo-text > p > a:nth-child(1) > svg{
+        height: 1rem;
+    }
+
+    /* project three ends */
+
+    section .spider-image img{
+        height: 36%;
+        padding: 1rem;
+    }
+
+    section .project-four-container h1{
+        position: absolute;
+        margin-top: 8rem;
+        top: 5rem;
+        width: 100%;
+        padding: 0 2rem 0 0rem;
+        color: #feffff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    
+    section .project-four-container h5{
+        position: absolute;
+        margin-top: 16rem;
+        top: 0;
+        color: #feffff;
+        width: 100%;
+        padding: 0 3rem 0 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    section .project-four-container p{
+        position: absolute;
+        margin-top: 21rem;
+        top: 0;
+        padding: 0 3rem 0 1rem;
+        color: #feffff;
+        font-size: 12px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    section .resume-container h1{
+        margin-top: 4rem;
+    }
+
+    section .resume-links{
+        margin-top: 3rem;
+    }
+
+    section .contact-container{
+        padding: 0;
+    }
+
+    section .contact-container h1{
+        margin-top: 0rem;
+        padding: 0;
+    }
+
+    section .contact-text h1{
+        margin: 1rem auto;
+    }
+
+    section .contact-text{
+        font-size: 1.8rem;
+        margin: 0 auto;
+        padding-right: 0;
+    }
+
+    section .contact-text p{
+        font-size: 1.25rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    section .contact-social-links{
+        position: absolute;
+        padding: 12rem 0;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+}
 
 /* old portfolio css starts */
 

@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import { Link } from '@reach/router';
 import '../views/styles/AboutMe.css';
 import '../views/styles/ProjectPage.css';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -22,9 +21,9 @@ function CovidTrackerProjectPage() {
     return (
         <div>
             <header>
-                <div className="nav main-nav">
+            <div className="nav main-nav">
                     <div className="logo">
-                        <Link to="/Portfolio-Website">Michael Remy</Link>
+                        <a href="/Portfolio-Website">Michael Remy</a>
                     </div>
                     <div>
                         <h1>menu</h1>
@@ -34,19 +33,19 @@ function CovidTrackerProjectPage() {
                     </div>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <Link to="/Portfolio-Website">Home</Link>
+                            <a href="/Portfolio-Website">Home</a>
                         </li>
                         <li className="nav-item">
-                            <   Link to="/gym-bro-project">Gym Bro</Link>
+                            <a href="/gym-bro-project">Gym Bro</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/covid-tracker-project">Covid-19 Tracker</Link>
+                            <a href="/covid-tracker-project">Covid Tracker</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/crepuscolo-project">Crepuscolo</Link>
+                            <a href="/crepuscolo-project">Crepuscolo</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/spider-queen-project">Spider Queen</Link>
+                            <a href="/spider-queen-project">Spider Queen</a>
                         </li>
                     </ul>
                 </div>
@@ -94,16 +93,16 @@ function CovidTrackerProjectPage() {
                         <h6>DETAILS</h6>
                     </div>
                 </div>
-                {/* <div className="row">
-                    <div className="col-12">
+                <div className="row">
+                    <div className="col-12 detail-points-container">
                         <ul>
-                            <li id="detail-points">Full-stack web development using MERN (MongoDB, Express, React, Node.js) to create a completely responsive data visualization website to track COVID-19 information</li>
-                            <li id="detail-points">Full-stack web development using MERN (MongoDB, Express, React, Node.js) to create a completely responsive data visualization website to track COVID-19 information</li>
-                            <li id="detail-points">Full-stack web development using MERN (MongoDB, Express, React, Node.js) to create a completely responsive data visualization website to track COVID-19 information</li>
-                            <li id="detail-points">Full-stack web development using MERN (MongoDB, Express, React, Node.js) to create a completely responsive data visualization website to track COVID-19 information</li>
+                            <li className="detail-points">Full-stack web development using MERN (MongoDB, Express, React, Node.js) to create a completely responsive data visualization website to track COVID-19 information</li>
+                            <li className="detail-points">Implemented COVID-19 API for real-time updates and to create data visualization with ChartJS</li>
+                            <li className="detail-points">Created reusable Material-UI components using HTML, CSS and JavaScript, that allowed for easy reusability and functionality</li>
+                            <li className="detail-points">Technologies Used: React, JavaScript, HTML/CSS3, ChartJS, Node.js, Express.js and Material-UI</li>
                         </ul>
                     </div>
-                </div> */}
+                </div>
             </section>
             <section>
             <div className="row footer-container">

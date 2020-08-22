@@ -43,7 +43,7 @@ function AboutMe() {
             <header>
                 <div className="nav main-nav">
                     <div className="logo">
-                        <Link to="/Portfolio-Website">Michael Remy</Link>
+                        <a href="/Portfolio-Website">Michael Remy</a>
                     </div>
                     <div>
                         <h1>menu</h1>
@@ -53,19 +53,19 @@ function AboutMe() {
                     </div>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <Link to="/Portfolio-Website">Home</Link>
+                            <a href="/Portfolio-Website">Home</a>
                         </li>
                         <li className="nav-item">
-                        <   Link to="/gym-bro-project">Gym Bro</Link>
+                            <a href="/gym-bro-project">Gym Bro</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/covid-tracker-project">Covid-19 Tracker</Link>
+                            <a href="/covid-tracker-project">Covid Tracker</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/crepuscolo-project">Crepuscolo</Link>
+                            <a href="/crepuscolo-project">Crepuscolo</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/spider-queen-project">Spider Queen</Link>
+                            <a href="/spider-queen-project">Spider Queen</a>
                         </li>
                     </ul>
                 </div>
@@ -112,7 +112,7 @@ function AboutMe() {
                     <div id="about-me-section-scroll"></div>
                     <div className="col-12">
                         <h1 className="about-me-header">About Me</h1>
-                        <div className="line"></div>
+                        <div className="col-6 line"></div>
                     </div>
                 </div>
                 <div className="row text-center">
@@ -121,13 +121,19 @@ function AboutMe() {
                         <h5>I love solving challenging problems that require exceptional critical thinking, and I love to teach others.</h5>
                         <h5>I have huge ambitions and dreams and I am always figuring out the most optimal way to accomplish them.</h5>
                         <h5>I am skilled in three full stacks: Python/Django, MERN, C#/ASP.NET.</h5>
-                        <div className="line-bottom"></div>
+                        <div className="col-6 line-bottom"></div>
                     </div>
                 </div>
                 <div className="row text-center social-media-container">
-                    <a href="https://github.com/Michaeldremy" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '57px', marginTop: '8px', color: 'black'}} className="Social-media-mobile"></GitHubIcon></a>
-                    <a href="https://www.linkedin.com/in/michaeldremy/" target="_blank" rel="noopener noreferrer" className="Social-media-mobile"><LinkedInIcon style={{fontSize: '75px', color: '#005b8e', marginRight: '3rem', marginLeft: '3rem'}}></LinkedInIcon></a>
-                    <a href="mailto:michaeldremy@gmail.com"><MailOutlineIcon style={{fontSize: '75px', color: '#DEF2F1', opacity: '.85'}} className="Social-media-mobile"></MailOutlineIcon></a>
+                    <div className="col d-none d-lg-block d-xl-none">
+                    </div>
+                    <div className="col">
+                        <a href="https://github.com/Michaeldremy" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '57px', marginTop: '8px', color: 'black'}} className="Social-media-mobile"></GitHubIcon></a>
+                        <a href="https://www.linkedin.com/in/michaeldremy/" target="_blank" rel="noopener noreferrer" className="Social-media-mobile"><LinkedInIcon style={{fontSize: '75px', color: '#005b8e', marginRight: '3rem', marginLeft: '3rem'}}></LinkedInIcon></a>
+                        <a href="mailto:michaeldremy@gmail.com"><MailOutlineIcon style={{fontSize: '75px', color: '#DEF2F1', opacity: '.85'}} className="Social-media-mobile"></MailOutlineIcon></a>
+                    </div>
+                    <div className="col d-none d-lg-block d-xl-none">
+                    </div>
                 </div>
                 <div id="scroll-container">
                     <div>
@@ -144,10 +150,10 @@ function AboutMe() {
             {/* about me ends */}
             <section className="container-fluid project-one-container">
                 <div className="row">
-                    <div className="col-5 gym-bro-image">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 gym-bro-image">
                         <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer"><img src={gym_bro} alt=""/></a>
                     </div>
-                    <div className="col-7 text-center gym-bro-text">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-7 text-center gym-bro-text">
                         <h1>Gym Bro | Workout stat tracking web app</h1>
                         <h5>
                             Workout tracking web app complete with aesthetic landing page, user login/registration 
@@ -155,7 +161,7 @@ function AboutMe() {
                             and view a graphical representation of their workout stats.
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/Gym_Bro_Python_Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <Link to="/gym-bro-project">View Project Demo</Link>
+                            Github: <a href="https://github.com/Michaeldremy/Gym_Bro_Python_Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="/gym-bro-project">View Project Demo</a>
                         </p>
                     </div>
                 </div>
@@ -163,16 +169,17 @@ function AboutMe() {
             {/* project one ends */}
             <section className="container-fluid project-two-container">
                 <div className="row">
-                    <div className="col-7 text-center covid-image-text">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-7 text-center covid-image-text">
                         <h1>Covid-19 Tracker | Real-time Case tracking</h1>
                         <h5>
                             Completely responsive data visualization wep application that has daily updates to track infected, recovered and deaths over 100+ countries. 
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/COVID-19-Tracker-Application" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://michaeldremy.github.io/COVID-19-Tracker-Application/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <Link to="/covid-tracker-project">View Project Demo</Link>
+                            Github: <a href="https://github.com/Michaeldremy/COVID-19-Tracker-Application" target="_blank" rel="noopener noreferrer">
+                            <GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://michaeldremy.github.io/COVID-19-Tracker-Application/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="/covid-tracker-project">View Project Demo</a>
                         </p>
                     </div>
-                    <div className="col-5 covid-image">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 covid-image">
                         <a href="https://michaeldremy.github.io/COVID-19-Tracker-Application/" target="_blank" rel="noopener noreferrer"><img src={Covid19Photo} alt=""/></a>
                     </div>
                 </div>
@@ -180,17 +187,17 @@ function AboutMe() {
             {/* project two ends */}
             <section className="container-fluid project-three-container">
                 <div className="row">
-                    <div className="col-5 crepuscolo-image">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 crepuscolo-image">
                         <a href="https://michaeldremy.github.io/The-Crepuscolo/index.html" target="_blank" rel="noopener noreferrer"><img src={crepuscolo} alt=""/></a>
                     </div>
-                    <div className="col-7 text-center crepuscolo-text">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-7 text-center crepuscolo-text">
                         <h1>The Crepuscolo | Restaurant Landing Page</h1>
                         <h5>
                             Italian restaurant landing page that is completely responsive 
                             and has beautiful animations creating an appetizing user experience.
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/The-Crepuscolo" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://michaeldremy.github.io/The-Crepuscolo/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <Link to ="/crepuscolo-project">View Project Demo</Link>
+                            Github: <a href="https://github.com/Michaeldremy/The-Crepuscolo" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://michaeldremy.github.io/The-Crepuscolo/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="/crepuscolo-project">View Project Demo</a>
                         </p>
                     </div>
                 </div>
@@ -198,16 +205,16 @@ function AboutMe() {
             {/* project three ends */}
             <section className="container-fluid project-four-container">
                 <div className="row">
-                    <div className="col-7 text-center spider-image-text">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-7 text-center spider-image-text">
                         <h1>Spider Queen | FPS Game</h1>
                         <h5>
                             First-person shooter game created with C# and Unity. Goal of the game is to complete objectives and defeat the spider queen by solving puzzles.
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/Spider-Queen-Vol-1-C-Sharp-Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://connect.unity.com/mg/other/untitled-6364" target="_blank" rel="noopener noreferrer">View Live Game</a> | <Link to ="/spider-queen-project">View Project Demo</Link>
+                            Github: <a href="https://github.com/Michaeldremy/Spider-Queen-Vol-1-C-Sharp-Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://connect.unity.com/mg/other/untitled-6364" target="_blank" rel="noopener noreferrer">View Live Game</a> | <a href="/spider-queen-project">View Project Demo</a>
                         </p>
                     </div>
-                    <div className="col-5 spider-image">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 spider-image">
                         <a href="https://connect.unity.com/mg/other/untitled-6364" target="_blank" rel="noopener noreferrer"><img src={SpiderGame} alt=""/></a>
                     </div>
                 </div>
@@ -225,18 +232,18 @@ function AboutMe() {
                         <a href="https://github.com/Michaeldremy/Portfolio-Website/blob/local-branch/client/src/components/michael-remy-resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
                     </div>
                     <div className="col-12">
-                        <a href="../components/michael-remy-resume.pdf" download>Download my resume</a>
+                        <a href="../components/michael-remy-resume.pdf" download="michael-remy-resume.pdf">Download my resume</a>
                     </div>
                 </div>
             </section>
             {/* resume ends */}
             <section className="container-fluid contact-footer-container">
                 <div className="row contact-container">
-                    <div className="col-6 contact-text">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-text">
                         <h1>Contact</h1>
                         <p>For more information, please contact me by e-mail or LinkedIn Message. Thank you!</p>
                     </div>
-                    <div className="col-6 contact-social-links">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-social-links">
                         <a href="mailto:michaeldremy@gmail.com" className="email-button" target="_blank" rel="noopener noreferrer">email</a>
                         <a href="https://www.linkedin.com/in/michaeldremy/" className="linkedin-button" target="_blank" rel="noopener noreferrer">linkedin</a>
                     </div>
