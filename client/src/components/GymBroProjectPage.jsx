@@ -23,7 +23,7 @@ function GymBroProjectPage() {
             <header>
             <div className="nav main-nav">
                     <div className="logo">
-                        <a href="/">Michael Remy</a>
+                        <a href="#/Home">Michael Remy</a>
                     </div>
                     <div>
                         <h1>menu</h1>
@@ -33,19 +33,19 @@ function GymBroProjectPage() {
                     </div>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <a href="/">Home</a>
+                            <a href="#/Home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/gym-bro-project">Gym Bro</a>
+                            <a href="#/gym-bro-project">Gym Bro</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/covid-tracker-project">Covid Tracker</a>
+                            <a href="#/covid-tracker-project">Covid Tracker</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/crepuscolo-project">Crepuscolo</a>
+                            <a href="#/crepuscolo-project">Crepuscolo</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/spider-queen-project">Spider Queen</a>
+                            <a href="#/spider-queen-project">Spider Queen</a>
                         </li>
                     </ul>
                 </div>

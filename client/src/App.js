@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sections from './views/Sections';
@@ -11,9 +11,8 @@ import SpiderQueenProjectPage from './components/SpiderQueenProjectPage';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/">
         <div>
-          <Route exact path="/" component={Sections} />
+          <Route exact path="/Home" component={Sections} />
           <Route path="/gym-bro-project" component={GymBroProjectPage}/>
           <Route path="/covid-tracker-project" component={CovidTrackerProjectPage}/>
           <Route path="/crepuscolo-project" component={CrepuscoloProjectPage}/>
@@ -21,7 +20,6 @@ function App() {
 
           {/* <Route path="/about" component={About} /> */}
         </div>
-      </BrowserRouter>
       {/* <HashRouter basename="/"> */}
         {/* <Sections path="/Portfolio-Website" /> */}
         {/* <Route exact path="/gym-bro-project" component={GymBroProjectPage}/>

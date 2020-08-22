@@ -43,7 +43,7 @@ function AboutMe() {
             <header>
                 <div className="nav main-nav">
                     <div className="logo">
-                        <a href="/">Michael Remy</a>
+                        <a href="#/Home">Michael Remy</a>
                     </div>
                     <div>
                         <h1>menu</h1>
@@ -53,19 +53,19 @@ function AboutMe() {
                     </div>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <a href="/">Home</a>
+                            <a href="#/Home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/gym-bro-project">Gym Bro</a>
+                            <a href="#/gym-bro-project">Gym Bro</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/covid-tracker-project">Covid Tracker</a>
+                            <a href="#/covid-tracker-project">Covid Tracker</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/crepuscolo-project">Crepuscolo</a>
+                            <a href="#/crepuscolo-project">Crepuscolo</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/spider-queen-project">Spider Queen</a>
+                            <a href="#/spider-queen-project">Spider Queen</a>
                         </li>
                     </ul>
                 </div>
@@ -161,7 +161,7 @@ function AboutMe() {
                             and view a graphical representation of their workout stats.
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/Gym_Bro_Python_Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="/gym-bro-project">View Project Demo</a>
+                            Github: <a href="https://github.com/Michaeldremy/Gym_Bro_Python_Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="#/gym-bro-project">View Project Demo</a>
                         </p>
                     </div>
                 </div>
@@ -176,7 +176,7 @@ function AboutMe() {
                         </h5>
                         <p>
                             Github: <a href="https://github.com/Michaeldremy/COVID-19-Tracker-Application" target="_blank" rel="noopener noreferrer">
-                            <GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://michaeldremy.github.io/COVID-19-Tracker-Application/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="/covid-tracker-project">View Project Demo</a>
+                            <GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://michaeldremy.github.io/COVID-19-Tracker-Application/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="#/covid-tracker-project">View Project Demo</a>
                         </p>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 covid-image">
@@ -197,7 +197,7 @@ function AboutMe() {
                             and has beautiful animations creating an appetizing user experience.
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/The-Crepuscolo" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://michaeldremy.github.io/The-Crepuscolo/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="/crepuscolo-project">View Project Demo</a>
+                            Github: <a href="https://github.com/Michaeldremy/The-Crepuscolo" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://michaeldremy.github.io/The-Crepuscolo/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="#/crepuscolo-project">View Project Demo</a>
                         </p>
                     </div>
                 </div>
@@ -211,7 +211,7 @@ function AboutMe() {
                             First-person shooter game created with C# and Unity. Goal of the game is to complete objectives and defeat the spider queen by solving puzzles.
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/Spider-Queen-Vol-1-C-Sharp-Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://connect.unity.com/mg/other/untitled-6364" target="_blank" rel="noopener noreferrer">View Live Game</a> | <a href="/spider-queen-project">View Project Demo</a>
+                            Github: <a href="https://github.com/Michaeldremy/Spider-Queen-Vol-1-C-Sharp-Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="https://connect.unity.com/mg/other/untitled-6364" target="_blank" rel="noopener noreferrer">View Live Game</a> | <a href="#/spider-queen-project">View Project Demo</a>
                         </p>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 spider-image">

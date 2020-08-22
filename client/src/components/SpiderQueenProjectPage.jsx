@@ -7,7 +7,7 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import CopyrightIcon from '@material-ui/icons/Copyright';
 import ReactPlayer from 'react-player/youtube';
 
-function CovidTrackerProjectPage() {
+function SpiderQueenProjectPage() {
 
     useEffect(() => {
         const mainNav = document.querySelector('.main-nav');
@@ -23,7 +23,7 @@ function CovidTrackerProjectPage() {
             <header>
             <div className="nav main-nav">
                     <div className="logo">
-                        <a href="/">Michael Remy</a>
+                        <a href="#/Home">Michael Remy</a>
                     </div>
                     <div>
                         <h1>menu</h1>
@@ -33,19 +33,19 @@ function CovidTrackerProjectPage() {
                     </div>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <a href="/">Home</a>
+                            <a href="#/Home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/gym-bro-project">Gym Bro</a>
+                            <a href="#/gym-bro-project">Gym Bro</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/covid-tracker-project">Covid Tracker</a>
+                            <a href="#/covid-tracker-project">Covid Tracker</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/crepuscolo-project">Crepuscolo</a>
+                            <a href="#/crepuscolo-project">Crepuscolo</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/spider-queen-project">Spider Queen</a>
+                            <a href="#/spider-queen-project">Spider Queen</a>
                         </li>
                     </ul>
                 </div>
@@ -54,13 +54,13 @@ function CovidTrackerProjectPage() {
                 <div className="parallax">
                 <div className="row">
                     <div className="col-12">
-                        <h1>COVID-19 TRACKER | REAL-TIME CASE TRACKING</h1>
+                        <h1>SPIDER QUEEN | FPS GAME</h1>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12">
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/COVID-19-Tracker-Application" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '1.8rem', color: 'black'}}></GitHubIcon></a>
+                            Github: <a href="https://github.com/Michaeldremy/Spider-Queen-Vol-1-C-Sharp-Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '1.8rem', color: 'black'}}></GitHubIcon></a>
                         </p>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function CovidTrackerProjectPage() {
                     <div className='player-wrapper'>
                         <ReactPlayer
                         className='react-player'
-                        url='https://www.youtube.com/watch?v=m99r-Eo7MM0&feature=youtu.be'
+                        url='https://www.youtube.com/watch?v=b-kQa4DXv64&feature=youtu.be'
                         width='100%'
                         height='100%'
                         controls={true}
@@ -96,10 +96,11 @@ function CovidTrackerProjectPage() {
                 <div className="row">
                     <div className="col-12 detail-points-container">
                         <ul>
-                            <li className="detail-points">Full-stack web development using MERN (MongoDB, Express, React, Node.js) to create a completely responsive data visualization website to track COVID-19 information</li>
-                            <li className="detail-points">Implemented COVID-19 API for real-time updates and to create data visualization with ChartJS</li>
-                            <li className="detail-points">Created reusable Material-UI components using HTML, CSS and JavaScript, that allowed for easy reusability and functionality</li>
-                            <li className="detail-points">Technologies Used: React, JavaScript, HTML/CSS3, ChartJS, Node.js, Express.js and Material-UI</li>
+                            <li className="detail-points">First-person shooter game created with C# and Unity. Goal of the game is to complete objectives and defeat the spider queen by solving puzzles.</li>
+                            <li className="detail-points">Designed and developed environment within the game, created animations and wrote scripts using object-orientated programming with C#</li>
+                            <li className="detail-points">Coverted JavaScript into C# to create optimization, developer readability and game functionality</li>
+                            <li className="detail-points">Facilitated distribution of work among developers to ensure completion of project in given time alloted.</li>
+                            <li className="detail-points">Technologies Used: C#, JavaScript, Unity, Diffmerge, Github</li>
                         </ul>
                     </div>
                 </div>
@@ -120,4 +121,4 @@ function CovidTrackerProjectPage() {
     )
 }
 
-export default CovidTrackerProjectPage;
+export default SpiderQueenProjectPage;
