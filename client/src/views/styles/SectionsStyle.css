@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+
 *
 {
     margin: 0;
@@ -9,7 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.h5ProjectHeader{
+/* new project css starts */
+
+/* old project css starts */
+
+/* .h5ProjectHeader{
     font-size: 65px;
     color: #f1ae1c;
     font-weight: 300;
@@ -55,9 +61,11 @@ html {
     padding: 3px;
     background: white;
     height: 45px;
-}
+} */
 
-#covidImg{
+/* end of project one */
+
+/* #covidImg{
     margin-top: 30%;
     margin-left: 14%;
     height: 400px;
@@ -99,9 +107,11 @@ html {
     padding: 3px;
     background: white;
     height: 45px;
-}
+} */
 
-.h5Spider{
+/* end of project two */
+
+/* .h5Spider{
     margin-top: 25%;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -142,9 +152,11 @@ html {
 #SpiderImg{
     margin-top: 35%;
     height: 400px;
-}
+} */
 
-h1
+/* end of project three */
+
+/* h1
 {
     font-size: 100px;
 }
@@ -156,17 +168,6 @@ p
     font-style: italic;
 }
 
-section{
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-
-section:nth-child(odd)
-{
-    background-color: rgb(5, 38, 65);
-}
-
 
 #section2
 {
@@ -175,13 +176,14 @@ section:nth-child(odd)
     justify-content: space-around;
 }
 
-#sec2{
+#projects{
     height: 250vh;
     padding-top: 6%;
-}
+    background-color: rgb(5, 38, 65);
+} */
 
 
-#NavBar
+/* #NavBar
 {   
     position: fixed;
     width: 100%;
@@ -195,9 +197,9 @@ section:nth-child(odd)
     line-height: 50px;  
     font-weight: bold;
     text-transform: uppercase;
-}
+} */
 
-a
+/* a
 {
     color: black;
     line-height: 50px;
@@ -209,7 +211,7 @@ a:hover
     line-height: 50px;
     box-sizing: border-box;
     text-decoration: none;
-}
+} */
 
 
 #sec3{
