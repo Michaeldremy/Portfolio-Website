@@ -43,7 +43,7 @@ function AboutMe() {
             <header>
                 <div className="nav main-nav">
                     <div className="logo">
-                        <a href="/Portfolio-Website">Michael Remy</a>
+                        <a href="/">Michael Remy</a>
                     </div>
                     <div>
                         <h1>menu</h1>
@@ -53,7 +53,7 @@ function AboutMe() {
                     </div>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <a href="/Portfolio-Website">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li className="nav-item">
                             <a href="/gym-bro-project">Gym Bro</a>
@@ -161,7 +161,7 @@ function AboutMe() {
                             and view a graphical representation of their workout stats.
                         </h5>
                         <p>
-                            Github: <a href="https://github.com/Michaeldremy/Gym_Bro_Python_Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="GymBroProjectPage.js">View Project Demo</a>
+                            Github: <a href="https://github.com/Michaeldremy/Gym_Bro_Python_Project" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '23px', color: '#feffff', marginBottom: '6px'}}></GitHubIcon></a> | <a href="http://michaeldremy.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">View Live Website</a> | <a href="/gym-bro-project">View Project Demo</a>
                         </p>
                     </div>
                 </div>

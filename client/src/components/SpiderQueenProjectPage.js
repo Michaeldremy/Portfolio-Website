@@ -23,7 +23,7 @@ function SpiderQueenProjectPage() {
             <header>
             <div className="nav main-nav">
                     <div className="logo">
-                        <a href="/Portfolio-Website">Michael Remy</a>
+                        <a href="/">Michael Remy</a>
                     </div>
                     <div>
                         <h1>menu</h1>
@@ -33,7 +33,7 @@ function SpiderQueenProjectPage() {
                     </div>
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <a href="/Portfolio-Website">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li className="nav-item">
                             <a href="/gym-bro-project">Gym Bro</a>
