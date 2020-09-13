@@ -230,7 +230,7 @@ function AboutMe() {
                 </div>
                 <div className="row resume-links">
                     <div className="col-12 pb-4">
-                        <a href="https://github.com/Michaeldremy/Portfolio-Website/blob/local-branch/client/src/components/michael-remy-resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+                        <a href="https://github.com/Michaeldremy/Portfolio-Website/blob/master/client/src/components/Michael_Remy_Resume_FS_B.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
                     </div>
                     <div className="col-12">
                         <a href="../components/Michael_Remy_Resume_FS_B.pdf" download="Michael_Remy_Resume_FS_B.pdf">Download my resume</a>
