@@ -9,7 +9,7 @@ import gym_bro from '../imgs/gym_bro.JPG';
 import Covid19Photo from '../imgs/Covid19Photo.JPG'
 import crepuscolo from '../imgs/crepuscolo.JPG'
 import SpiderGame from '../imgs/SpiderGame.JPG';
-import { Link } from '@reach/router';
+import { Link, Element, animateScroll as scroll} from 'react-scroll';
 
 function AboutMe() {
 
@@ -96,12 +96,12 @@ function AboutMe() {
                 </div>
                 <div className="row learn-more-container">
                     <div className="col-12">
-                        <a href="#about-me-section-scroll"><p className="learn-more">Learn More</p></a>
+                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500}><p className="learn-more">Learn More</p></Link>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12">
-                        <a href="#about-me-section-scroll"><img src={arrow_image} alt="" id="arrow-icon"/></a>
+                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500}><img src={arrow_image} alt="" id="arrow-icon"/></Link>
                     </div>
                 </div>
             </section>
@@ -109,7 +109,8 @@ function AboutMe() {
             {/* main page ends */}
             <section className="about-me-container">
                 <div className="row text-center">
-                    <div id="about-me-section-scroll"></div>
+                <Element name="test1" className="element" >
+                </Element>
                     <div className="col-12">
                         <h1 className="about-me-header">About Me</h1>
                         <div className="col-6 line"></div>
@@ -232,7 +233,7 @@ function AboutMe() {
                         <a href="https://github.com/Michaeldremy/Portfolio-Website/blob/local-branch/client/src/components/michael-remy-resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
                     </div>
                     <div className="col-12">
-                        <a href="../components/michael-remy-resume.pdf" download="michael-remy-resume.pdf">Download my resume</a>
+                        <a href="../components/Michael_Remy_Resume_FS_B.pdf" download="Michael_Remy_Resume_FS_B.pdf">Download my resume</a>
                     </div>
                 </div>
             </section>
