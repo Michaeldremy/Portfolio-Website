@@ -1,32 +1,24 @@
 import React from 'react';
 import {Route} from "react-router-dom";
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sections from './views/Sections';
-import GymBroProjectPage from './components/GymBroProjectPage';
-import CovidTrackerProjectPage from './components/CovidTrackerProjectPage';
-import CrepuscoloProjectPage from './components/CrepuscoloProjectPage';
-import SpiderQueenProjectPage from './components/SpiderQueenProjectPage';
+import VoiceNewsDemoPage from './pages/VoiceNewsDemoPage';
+import { CovidTrackerDemoPage } from './pages/CovidTrackerDemoPage';
+import CrepuscoloDemoPage from './pages/CrepuscoloDemoPage';
+import GymBroDemoPage from './pages/GymBroDemoPage';
+import SpiderQueenDemoPage from './pages/SpiderQueenDemoPage';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{textAlign: 'center'}}>
         <div>
           <Route exact path="/Home" component={Sections} />
-          <Route path="/gym-bro-project" component={GymBroProjectPage}/>
-          <Route path="/covid-tracker-project" component={CovidTrackerProjectPage}/>
-          <Route path="/crepuscolo-project" component={CrepuscoloProjectPage}/>
-          <Route path="/spider-queen-project" component={SpiderQueenProjectPage}/>
-
-          {/* <Route path="/about" component={About} /> */}
+          <Route path="/gym-bro-project" component={GymBroDemoPage}/>
+          <Route path="/covid-tracker-project" component={CovidTrackerDemoPage}/>
+          <Route path="/crepuscolo-project" component={CrepuscoloDemoPage}/>
+          <Route path="/spider-queen-project" component={SpiderQueenDemoPage}/>
+          <Route path="/voice-news-project" component={VoiceNewsDemoPage}/>
         </div>
-      {/* <HashRouter basename="/"> */}
-        {/* <Sections path="/Portfolio-Website" /> */}
-        {/* <Route exact path="/gym-bro-project" component={GymBroProjectPage}/>
-        <CovidTrackerProjectPage path="/covid-tracker-project"/>
-        <CrepuscoloProjectPage path="/crepuscolo-project"/>
-        <SpiderQueenProjectPage path="/spider-queen-project"/>
-      </HashRouter> */}
     </div>
   );
 }

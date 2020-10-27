@@ -1,0 +1,102 @@
+.project-card-container {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0;
+  /* Might not need to add width */
+  max-width: 100%;
+}
+
+.project-card-container h1 {
+  display: block;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 0;
+  text-align: center;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.project-card-img-wrap{
+  position: relative;
+  height: 375px;
+  width: 100%;
+  height: 250px;
+}
+
+.project-card-container img {
+  position: relative;
+  width: 375px;
+  max-width: 95%;
+  margin: .5rem 4rem;
+  height: 250px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.project-card-hover-button{
+  position: absolute;
+  max-width: 95%;
+  height: 40px;
+  width: 120px;
+  background-color: #17252a;
+  color: #fff;
+  font-size: 18px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  visibility: hidden;
+  cursor: none;
+  
+  /* transition */
+  transition: .3s ease-in-out;
+}
+
+.project-card-hover-button:hover{
+  cursor: auto;
+}
+
+/* img wrap div */
+.project-card-img-wrap img:hover{
+  opacity: 0.5;
+  filter: blur(3px);
+  transition: .1s ease-in-out;
+}
+
+.project-card-img-wrap .project-card-hover-button{
+  visibility: visible;
+  opacity: 1;
+  transition: .3s ease-in-out;
+}
+
+.project-card-container a {
+  color: #04b4ff;
+  font-family: sans-serif;
+}
+
+.project-card-container a:hover{
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  color: rgb(14, 212, 30);
+}
+
+@media screen and (max-width: 1150px) {
+  .project-card-container h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .project-card-container h1 {
+    font-size: 20px;
+  }
+
+
+  .project-card-container img {
+    height: 225px;
+    margin: .5rem 1px;
+  }
+}
