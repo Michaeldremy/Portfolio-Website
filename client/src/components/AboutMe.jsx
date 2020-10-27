@@ -25,6 +25,7 @@ import { Link, Element, animateScroll as scroll} from 'react-scroll';
 // App components
 import ProjectModal from '../components/Projects/ProjectModal';
 import NavBar from './Navigation/NavBar';
+import Contact from './Contact';
 
 function AboutMe() {
 
@@ -124,7 +125,8 @@ function AboutMe() {
                 </div>
             </section>
             {/* about me ends */}
-            <div style={{ background: '#17252a'}}>
+            <div style={{ background: '#17252a'}} className="project-section">
+                <h1 className="project-h1">Projects</h1>
                 <ProjectModal 
                 projectCardName={"Gym Bro"}
                 projectCardImage={gym_bro}
@@ -133,7 +135,7 @@ function AboutMe() {
                 imageTwo={gym_bro_2}
                 imageThree={gym_bro_3}
                 projectTitle={"Gym Bro | Workout stat tracking web app"}
-                projectDescription={"Website that allows users to keep track of their workout statistics. Users can choose from several different workouts and enter their reps / weight for that workout. At their profile page they can see a graph of their progression for each exercise."}
+                projectDescription={"Users can create an account and select from a list of exercises and record their workout, they can view their progress by going to the profile page and then clicking on the workout they want to see progress of."}
                 githubLink={"https://github.com/Michaeldremy/Gym_Bro_Python_Project"}
                 liveWebsiteUrl={"http://michaeldremy.pythonanywhere.com/"}
                 demoPageUrl={"#/gym-bro-project"}
@@ -214,16 +216,7 @@ function AboutMe() {
             </section>
             {/* resume ends */}
             <section className="container-fluid contact-footer-container">
-                <div className="row contact-container">
-                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-text">
-                        <h1>Contact</h1>
-                        <p>For more information, please contact me by e-mail or LinkedIn Message. Thank you!</p>
-                    </div>
-                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-social-links">
-                        <a href="mailto:michaeldremy@gmail.com" className="email-button" target="_blank" rel="noopener noreferrer">email</a>
-                        <a href="https://www.linkedin.com/in/michaeldremy/" className="linkedin-button" target="_blank" rel="noopener noreferrer">linkedin</a>
-                    </div>
-                </div>
+            <Contact />
                 <div className="row footer-container">
                     <div className="col-12">
                     <a href="https://github.com/Michaeldremy" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '30px', marginTop: '1px', color: 'white', opacity: '.6'}}></GitHubIcon></a>

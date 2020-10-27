@@ -168,7 +168,6 @@ header h1{
 section .intro-container{
     max-width: 100%;
     height: 100vh;
-;
     background-color: #3AAFA9;
 }
 
@@ -380,6 +379,17 @@ section #scroll-container{
     animation: move-arrow .5s alternate infinite;
 }
 
+.project-section{
+    padding: 1rem 0;
+}
+
+.project-section .project-h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
 /* keyframe animations */
 
 @keyframes animate{
@@ -481,82 +491,10 @@ section .resume-links a:hover{
 
 section .contact-footer-container{
     height: 70vh;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     background: linear-gradient(to bottom,rgba(0,0,0,.6), rgba(0,0,0,.6)), url("https://images.unsplash.com/photo-1572666341285-c8cb9790ca50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") center, no-repeat;
     background-size: cover;
     width: 100%;
-}
-
-section .contact-container{
-    padding-top: 8rem;
-    height: 40vh;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section .contact-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 7rem;
-}
-
-section .contact-container h1{
-    font-size: 28px;
-    color: #feffff;
-    text-transform: uppercase;
-    padding-right: 10rem;
-}
-
-section .contact-container p{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    text-align: flex-end;
-    font-size: 24px;
-    padding-left: 12rem;
-    color: #feffff;
-}
-
-section .contact-social-links{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 10rem;
-    text-decoration: none;
-}
-
-section .contact-social-links a:hover{
-    color: #feffff;
-}
-
-section .email-button{
-    padding: 1rem 6rem;
-    margin-bottom: 2rem;
-    background: transparent;
-    box-shadow: inset 0 0 0 2px #3fe2e2;
-    color: #feffff;
-    font-size: 1rem;
-    text-transform: uppercase;
-}
-
-section .email-button:hover{
-    box-shadow: inset 0 0 0 2px #feffff;
-}
-
-section .linkedin-button{
-    padding: 1rem 5.2rem;
-    margin-bottom: 2rem;
-    background: transparent;
-    box-shadow: inset 0 0 0 2px #ff2f0a;
-    color: #feffff;
-    font-size: 1rem;
-    text-transform: uppercase;
-}
-
-section .linkedin-button:hover{
-    box-shadow: inset 0 0 0 2px #feffff;
 }
 
 section .footer-container{
@@ -616,17 +554,6 @@ section .footer-container h1{
     section .resume-links{
         margin-top: 3rem;
     }
-
-    section .contact-text h1{
-        font-size: 2rem;
-        padding-right: 6.5rem;
-    }
-
-    section .contact-text p{
-        font-size: 1.5rem;
-        width: 100%;
-        padding-left: 15rem;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -637,6 +564,13 @@ section .footer-container h1{
     section .full-name{
         margin-top: 18rem;
         font-size: 4.5rem;
+    }
+
+    .project-section .project-h1 {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
     }
 }
 
@@ -699,15 +633,11 @@ section .footer-container h1{
         margin-top: 3rem;
     }
 
-    section .contact-text h1{
-        font-size: 1.8rem;
-        padding-right: 5rem;
-    }
-
-    section .contact-text p{
-        font-size: 1.25rem;
-        width: 100%;
-        padding-left: 6rem;
+    .project-section .project-h1 {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 35px;
+        text-transform: uppercase;
     }
 }
 
@@ -794,64 +724,16 @@ section .footer-container h1{
     section .resume-links{
         margin-top: 3rem;
     }
-
-    section .contact-social-links {
-        padding: 0 5.5rem;
-    }
-
-    section .contact-text{
-        font-size: 1.8rem;
-        padding-right: 0rem;
-    }
-
-    section .contact-text h1{
-        font-size: 1.8rem;
-        padding-right: 7rem;
-        align-items: center;
-    }
-
-    section .contact-text p{
-        font-size: 1.25rem;
-        width: 100%;
-        padding-left: 0rem;
-        align-items: center;
-    }
     
+    .project-section .project-h1 {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
 }
 
 @media only screen and (max-width: 576px) {
-    
-    .main-nav{
-        width: 100%;
-        height: 6rem;
-        padding: 0 2.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .nav-list{
-        width: 12rem;
-        height: 46vh;
-        max-height: auto;
-        position: absolute;
-        top: 0;
-        right: 0;
-        background-color: #17252a;
-        transform: translateX(55rem);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        box-shadow: -.5rem 0 1rem rgba(0, 0, 0, .2);
-        z-index: 1500;
-        transition: transform .5s;
-    }
-
-    .nav-item a{
-        font-size: .8rem;
-    }
-    
     section .intro-container {
         max-width: 100%;
         background-color: #3AAFA9;
@@ -885,7 +767,7 @@ section .footer-container h1{
     section .about-me-container{
         max-width: 100%;
         height: 70vh;
-        padding-top: 3rem;
+        padding-top: 2rem;
     }
 
     section .about-me-header{
@@ -932,40 +814,5 @@ section .footer-container h1{
 
     section .resume-links{
         margin-top: 3rem;
-    }
-
-    section .contact-container{
-        padding: 0;
-    }
-
-    section .contact-container h1{
-        margin-top: 0rem;
-        padding: 0;
-    }
-
-    section .contact-text h1{
-        margin: 1rem auto;
-    }
-
-    section .contact-text{
-        font-size: 1.8rem;
-        margin: 0 auto;
-        padding-right: 0;
-    }
-
-    section .contact-text p{
-        font-size: 1.25rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    section .contact-social-links{
-        position: absolute;
-        padding: 12rem 0;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
     }
 }
