@@ -26,6 +26,7 @@ import { Link, Element, animateScroll as scroll} from 'react-scroll';
 import ProjectModal from '../components/Projects/ProjectModal';
 import NavBar from './Navigation/NavBar';
 import Contact from './Contact';
+import ResumeSection from './ResumeSection';
 
 function AboutMe() {
 
@@ -195,23 +196,7 @@ function AboutMe() {
                 />
             {/* project five ends */}
             </div>
-            <section className="container-fluid resume-container">
-                <div className="row">
-                    <div className="col-12">
-                        <h1>Resume</h1>
-                        <div className="line"></div>
-                    </div>
-                </div>
-                <div className="row resume-links">
-                    <div className="col-12 pb-4">
-                        <a href="https://github.com/Michaeldremy/Portfolio-Website/blob/master/client/src/components/Michael_Remy_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
-                    </div>
-                    <div className="col-12">
-                        <a href="../components/Michael_Remy_Resume.pdf" download="Michael_Remy_Resume.pdf">Download my resume</a>
-                    </div>
-                </div>
-            </section>
-            {/* resume ends */}
+            <ResumeSection />
             <section className="container-fluid contact-footer-container">
             <Contact />
                 <div className="row footer-container">

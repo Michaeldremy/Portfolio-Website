@@ -425,49 +425,6 @@ section #scroll-container{
     }
 }
 
-/* resume container css */
-
-section .resume-container{
-    height: 45vh;
-    background: #2692c0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section .resume-container h1{
-    margin-top: 5rem;
-    color: #feffff;
-    font-weight: 600;
-    letter-spacing: 4px;
-    margin-left: 4px;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    font-size: 36px;
-}
-
-section .resume-container .line{
-    margin-top: 3.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 6%;
-    background: #1d2a3070;
-}
-
-section .resume-links{
-    margin-top: 4rem;
-}
-
-section .resume-links a{
-    color: #feffffd8;
-    font-size: 26px;
-    text-decoration: underline;
-    text-decoration-color: #feffffd8;
-}
-
-section .resume-links a:hover{
-    text-decoration: none;
-}
-
 /* contact css */
 
 section .contact-footer-container{
@@ -526,14 +483,6 @@ section .footer-container h1{
     
     .arrow span{
         margin-top: 4rem;
-    }
-
-    section .resume-container h1{
-        margin-top: 4rem;
-    }
-
-    section .resume-links{
-        margin-top: 3rem;
     }
 }
 
@@ -604,14 +553,6 @@ section .footer-container h1{
 
     .arrow span{
         margin-top: 4rem;
-    }
-
-    section .resume-container h1{
-        margin-top: 4rem;
-    }
-
-    section .resume-links{
-        margin-top: 3rem;
     }
 
     .project-section .project-h1 {
@@ -697,14 +638,6 @@ section .footer-container h1{
         margin-top: 4rem;
         font-size: 5px;
     }
-
-    section .resume-container h1{
-        margin-top: 4rem;
-    }
-
-    section .resume-links{
-        margin-top: 3rem;
-    }
     
     .project-section .project-h1 {
         color: #fff;
@@ -787,13 +720,5 @@ section .footer-container h1{
 
     section .social-media-container a svg{
         visibility: hidden;
-    }
-
-    section .resume-container h1{
-        margin-top: 4rem;
-    }
-
-    section .resume-links{
-        margin-top: 3rem;
     }
 }

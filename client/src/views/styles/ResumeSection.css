@@ -1,0 +1,27 @@
+.resume-section-container{
+  display: flex;
+  height: 20vh;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #288ab4;
+}
+
+.resume-section-container a{
+  color: #fff;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.resume-section-container a:hover{
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .resume-section-container a{
+    font-size: 22px;
+  }
+}
