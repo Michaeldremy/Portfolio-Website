@@ -55,7 +55,7 @@
 
 .contact-component-email-button {
   padding: 1rem 6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   background: transparent;
   box-shadow: inset 0 0 0 2px #3fe2e2;
   color: #feffff;
@@ -90,14 +90,13 @@
 
   .contact-component-text-container {
     margin: 0 auto;
-    padding: 1rem 0;
+    padding: .5rem 0;
     width: 100%;
     max-width: 80%;
   }
 
   .contact-component-social-links-container {
     margin: 0 auto;
-    padding: 1rem 0;
     width: 100%;
     max-width: 80%;
   }
@@ -121,7 +120,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 350px) {
   .contact-component-container h1 {
     font-size: 22px;
   }
@@ -131,12 +130,12 @@
   }
 
   .contact-component-email-button {
-    padding: 0.5rem 3rem;
+    padding: .5rem 2rem;
     font-size: 14px;
   }
 
   .contact-component-linkedin-button {
-    padding: 0.5rem 2.3rem;
+    padding: 0.5rem 1.3rem;
     font-size: 14px;
   }
 }
