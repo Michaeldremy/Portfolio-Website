@@ -107,7 +107,7 @@ function AboutMe() {
                     <div className="col">
                         <a href="https://github.com/Michaeldremy" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '55px', marginTop: '0px', color: 'black'}} className="Social-media-mobile"></GitHubIcon></a>
                         <a href="https://www.linkedin.com/in/michaeldremy/" target="_blank" rel="noopener noreferrer" className="Social-media-mobile"><LinkedInIcon style={{fontSize: '75px', color: '#005b8e', marginRight: '3rem', marginLeft: '3rem'}}></LinkedInIcon></a>
-                        <a href="mailto:michaeldremy@gmail.com"><MailOutlineIcon style={{fontSize: '76px', color: '#DEF2F1', opacity: '.85', marginBottom: '3px'}} className="Social-media-mobile"></MailOutlineIcon></a>
+                        <a href="mailto:michaeldremy@gmail.com"><MailOutlineIcon style={{fontSize: '76px', color: '#DEF2F1', opacity: '.85', marginBottom: '3px', marginRight: '7px'}} className="Social-media-mobile"></MailOutlineIcon></a>
                     </div>
                     <div className="col d-none d-lg-block d-xl-none">
                     </div>
@@ -117,9 +117,6 @@ function AboutMe() {
                         <a href="#" className="scroll-down"></a>
                     </div>
                     <div className="mouse">
-                        <span></span>
-                    </div>
-                    <div className="arrow">
                         <span></span>
                     </div>
                 </div>
