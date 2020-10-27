@@ -34,19 +34,13 @@
   cursor: pointer;
 }
 
-.project-card-hover-button{
+.project-card-hover-container{
+  display: flex;
   position: absolute;
   max-width: 95%;
-  height: 40px;
-  width: 120px;
-  background-color: #17252a;
-  color: #fff;
-  font-size: 18px;
-  font-family: sans-serif;
-  border-radius: 10px;
-  overflow: auto;
   margin: auto;
-  position: absolute;
+  justify-content: center;
+  align-items: center;
   top: 0; left: 0; bottom: 0; right: 0;
   visibility: hidden;
   cursor: none;
@@ -55,18 +49,26 @@
   transition: .3s ease-in-out;
 }
 
-.project-card-hover-button:hover{
-  cursor: auto;
+.project-card-hover-container h1{
+  font-size: 26px;
+  color: #fff;
+  font-family: sans-serif;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.project-card-hover-container:hover {
+  cursor: pointer;
 }
 
 /* img wrap div */
-.project-card-img-wrap img:hover{
+.project-card-img-wrap:hover img{
   opacity: 0.5;
-  filter: blur(3px);
+  filter: blur(4px);
   transition: .1s ease-in-out;
 }
 
-.project-card-img-wrap .project-card-hover-button{
+.project-card-img-wrap .project-card-hover-container{
   visibility: visible;
   opacity: 1;
   transition: .3s ease-in-out;

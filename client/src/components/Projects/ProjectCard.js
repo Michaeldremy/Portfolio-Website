@@ -16,7 +16,9 @@ const ProjectCardModal = ({
         <div className="project-card-img-wrap" onClick={onClick}>
           <img src={projectCardImage} alt="card_image" onMouseEnter={() => setShowButton(true)} onMouseLeave={() => setShowButton(false)}/>
           {showButton && (
-              <button className="project-card-hover-button" onMouseEnter={() => setShowButton(true)} onMouseLeave={() => setShowButton(false)}>Click Image</button>
+            <div className="project-card-hover-container" onMouseEnter={() => setShowButton(true)} onMouseLeave={() => setShowButton(false)}>
+              <h1 >- Learn More -</h1>
+            </div>
           )}
         </div>
         <h1>

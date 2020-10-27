@@ -44,9 +44,8 @@ function AboutMe() {
 
     return (
         <div>
-            <div className="container-fluid">
-            <section className="intro-container">
             <NavBar />
+            <section className="intro-container">
                 <div className="row text-center">
                     <div className="col">
                         <div className="wrapper">
@@ -73,16 +72,15 @@ function AboutMe() {
                 </div>
                 <div className="row learn-more-container">
                     <div className="col-12">
-                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500}><p className="learn-more">Learn More</p></Link>
+                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={1000}><p className="learn-more">Learn More</p></Link>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12">
-                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500}><img src={arrow_image} alt="" id="arrow-icon"/></Link>
+                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={1000}><img src={arrow_image} alt="" id="arrow-icon"/></Link>
                     </div>
                 </div>
             </section>
-            </div>
             {/* main page ends */}
             <section className="about-me-container">
                 <div className="row text-center">
