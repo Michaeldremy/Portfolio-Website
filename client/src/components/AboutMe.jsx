@@ -1,6 +1,5 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 // import '../views/styles/AboutMe.css';
-import arrow_image from '../imgs/arrow_img.png';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
@@ -20,72 +19,23 @@ import SpiderGame from '../imgs/SpiderGame.JPG';
 import alan_ai_news from '../imgs/alan_ai_news.JPG';
 import alan_ai_news_2 from '../imgs/alan_ai_news_2.JPG';
 import alan_ai_news_3 from '../imgs/alan_ai_news_3.JPG';
-import { Link, Element, animateScroll as scroll} from 'react-scroll';
 
 // App components
 import ProjectModal from '../components/Projects/ProjectModal';
 import NavBar from './Navigation/NavBar';
 import Contact from './Contact';
 import ResumeSection from './ResumeSection';
+import Intro from './First-Impressions/Intro';
 
 function AboutMe() {
-
-    useEffect(() => {
-        document.addEventListener("mousemove", parallax);
-        function parallax(e){
-            this.querySelectorAll('.layer').forEach(layer => {
-                const speed = layer.getAttribute('data-speed')
-                const x = (window.innerWidth - e.pageX*speed)/100
-                const y = (window.innerWidth - e.pageY*speed)/100
-                layer.style.transform = `translateX(${x}px) translateY(${y}px)`
-            })
-        }
-    }, []);
 
     return (
         <div>
             <NavBar />
-            <section className="intro-container">
-                <div className="row text-center">
-                    <div className="col">
-                        <div className="wrapper">
-                            <div className="box-area">
-                                <div className="box-1"></div>
-                                <div className="box-2"></div>
-                                <div className="box-3"></div>
-                                <div className="box-4"></div>
-                                <div className="box-5"></div>
-                                <div className="box-6"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <h1 className="full-name">Michael Remy</h1>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <p className="sub-name pt-4">Full-stack web developer</p>
-                    </div>
-                </div>
-                <div className="row learn-more-container">
-                    <div className="col-12">
-                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={1000}><p className="learn-more">Learn More</p></Link>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                    <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={1000}><img src={arrow_image} alt="" id="arrow-icon"/></Link>
-                    </div>
-                </div>
-            </section>
+            <Intro />
             {/* main page ends */}
             <section className="about-me-container">
                 <div className="row text-center">
-                <Element name="test1" className="element" >
-                </Element>
                     <div className="col-12">
                         <h1 className="about-me-header">About Me</h1>
                         <div className="col-6 line"></div>

@@ -165,118 +165,6 @@ header h1{
     margin-left:auto
 }
 
-section .intro-container{
-    max-width: 100%;
-    height: 100vh;
-    background-color: #3AAFA9;
-}
-
-.wrapper{
-    width: 200px;
-    height: 200px;
-    margin: 8% auto 1% auto;
-}
-
-.box-area{
-    animation: animate 12s ease-in-out infinite;
-    transform-style: preserve-3d;
-    transform-origin: 100px 100px 0;
-}
-
-.box-area div{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    line-height: 200;
-}
-
-.box-area .box-1{
-    background-image: url('../../imgs/box_1_image.jpg');
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: translateZ(100px);
-}
-
-.box-area .box-2{
-    background-image: url('../../imgs/box_2_image.jpg');
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(90deg) translateZ(100px);
-}
-
-.box-area .box-3{
-    background-image: url('../../imgs/box_3_image.jpg');
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-}
-
-.box-area .box-4{
-    background-image: url('../../imgs/box_4_image.jpg');
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-}
-
-.box-area .box-5{
-    background-image: url('../../imgs/box_5_image.jpg');
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-}
-
-.box-area .box-6{
-    background-image: url('../../imgs/box_6_image.jpg');
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateX(-90deg) translateZ(100px);
-}
-
-section .full-name{
-    margin-top: 4%;
-    color: #feffff;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 4rem;
-    letter-spacing: 4px;
-    margin-left: -4px;
-}
-
-section .sub-name{
-    color: #feffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 1.85rem;
-    letter-spacing: 2px;
-    margin-left: -2px;
-}
-
-section .learn-more-container{
-    margin-top: 14.5%;
-}
-
-section .learn-more{
-    color: #feffff;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-left: -2px;
-    margin-bottom: 0;
-}
-
-section a:hover{
-    text-decoration: none;
-    color: black;
-}
-
 section .about-me-container{
     width: 100%;
     max-width: 100%;
@@ -451,25 +339,6 @@ section .footer-container h1{
 /* media queries */
 
 @media only screen and (max-width: 1440px) {
-    
-    section .wrapper{
-        margin-top: 9rem;
-        height: 0;
-    }
-
-    section .full-name{
-        margin-top: 17rem;
-        font-size: 4.5rem;
-    }
-
-    section .sub-name{
-        font-size: 1.75rem;
-    }
-
-    section .learn-more{
-        margin-top: .25rem;
-    }
-    
     section .line{
         margin: 8rem auto 0 auto;
         height: 3px;
@@ -490,11 +359,6 @@ section .footer-container h1{
     section #scroll-container{
         visibility: hidden;
     }
-    
-    section .full-name{
-        margin-top: 18rem;
-        font-size: 4.5rem;
-    }
 
     .project-section .project-h1 {
         color: #fff;
@@ -505,29 +369,6 @@ section .footer-container h1{
 }
 
 @media only screen and (max-width: 1024px) {
-
-
-    section .wrapper{
-        height: 0;
-    }
-
-    section .full-name{
-        margin-top: 18rem;
-        font-size: 4rem;
-    }
-
-    section .sub-name{
-        font-size: 1.75rem;
-    }
-
-    section .learn-more{
-        margin-top: 3.5rem;
-    }
-    
-    section .wrapper{
-        margin-top: 9rem;
-    }
-    
     section .line{
         margin: 10rem auto 0 auto;
         height: 3px;
@@ -564,46 +405,6 @@ section .footer-container h1{
 }
 
 @media only screen and (max-width: 768px) {
-    section .intro-container {
-        max-width: 100%;
-        height: auto;
-        max-height: auto;
-        background-color: #3AAFA9;
-    }
-
-    section .mouse{
-        visibility: hidden;
-    }
-
-    section .arrow{
-        visibility: hidden;
-    }
-
-    section .wrapper{
-        height: 0;
-    }
-
-    section .full-name{
-        margin-top: 10rem;
-        font-size: 2.25rem;
-    }
-
-    section .sub-name{
-        font-size: 1.5rem;
-    }
-
-    section .learn-more{
-        visibility: hidden;
-    }
-
-    section #arrow-icon{
-        visibility: hidden;
-    }
-    
-    section .box-area{
-        visibility: hidden;
-    }
-
     section .about-me-header{
         margin-left: auto;
         margin-right: auto;
@@ -648,36 +449,6 @@ section .footer-container h1{
 }
 
 @media only screen and (max-width: 576px) {
-    section .intro-container {
-        max-width: 100%;
-        background-color: #3AAFA9;
-    }
-
-    section .wrapper{
-        height: 0;
-    }
-
-    section .full-name{
-        margin-top: 11rem;
-        font-size: 2.25rem;
-    }
-
-    section .sub-name{
-        font-size: 1.5rem;
-    }
-
-    section .learn-more{
-        visibility: hidden;
-    }
-
-    section #arrow-icon{
-        visibility: hidden;
-    }
-    
-    section .box-area{
-        visibility: hidden;
-    }
-
     section .about-me-container{
         max-width: 100%;
         height: 70vh;
@@ -688,12 +459,6 @@ section .footer-container h1{
         margin-top: 1rem;
         font-size: 26px;
     }
-
-    section .full-name{
-        margin-top: 8rem;
-        font-size: 2.25rem;
-    }
-
     
     section .line{
         margin: 6rem auto 0 auto;
