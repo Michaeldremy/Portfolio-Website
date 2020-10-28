@@ -11,7 +11,7 @@ import CopyrightIcon from "@material-ui/icons/Copyright";
 import ReactPlayer from "react-player/youtube";
 // CSS
 import "../../views/styles/ProjectPage.css";
-import "../../views/styles/AboutMe.css";
+import "../../views/styles/HomePage.css";
 
 const ProjectDemo = ({
   projectDemoTitle,

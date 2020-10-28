@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../views/styles/AboutMe.css';
+import '../views/styles/HomePage.css';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
@@ -21,20 +21,20 @@ import alan_ai_news_2 from '../imgs/alan_ai_news_2.JPG';
 import alan_ai_news_3 from '../imgs/alan_ai_news_3.JPG';
 
 // App components
-import ProjectModal from '../components/Projects/ProjectModal';
+import ProjectModal from './Projects/ProjectModal';
 import NavBar from './Navigation/NavBar';
 import Contact from './Contact';
 import ResumeSection from './ResumeSection';
 import Intro from './First-Impressions/Intro';
 
-function AboutMe() {
+function HomePage() {
 
     return (
         <div>
             <NavBar />
             <Intro />
             {/* main page ends */}
-            <section className="about-me-container">
+            <section className="about-me-container" id="about-me">
                 <div className="row text-center">
                     <div className="col-12">
                         <h1 className="about-me-header">About Me</h1>
@@ -71,7 +71,7 @@ function AboutMe() {
                 </div>
             </section>
             {/* about me ends */}
-            <div style={{ background: '#17252a'}} className="project-section">
+            <div style={{ background: '#17252a'}} className="project-section" id="projects">
                 <h1 className="project-h1">Projects</h1>
                 <ProjectModal 
                 projectCardName={"Gym Bro"}
@@ -162,4 +162,4 @@ function AboutMe() {
     )
 }
 
-export default AboutMe;
+export default HomePage;

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import '../../views/styles/AboutMe.css';
+import '../../views/styles/HomePage.css';
 
 const NavBar = () => {
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import {Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Sections from './views/Sections';
 import VoiceNewsDemoPage from './pages/VoiceNewsDemoPage';
 import { CovidTrackerDemoPage } from './pages/CovidTrackerDemoPage';
 import CrepuscoloDemoPage from './pages/CrepuscoloDemoPage';
 import GymBroDemoPage from './pages/GymBroDemoPage';
 import SpiderQueenDemoPage from './pages/SpiderQueenDemoPage';
+import Sections from './views/Sections';
 
 function App() {
   return (
