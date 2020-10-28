@@ -81,7 +81,7 @@ function AboutMe() {
                 imageTwo={gym_bro_2}
                 imageThree={gym_bro_3}
                 projectTitle={"Gym Bro | Workout stat tracking web app"}
-                projectDescription={"Users can create an account and select from a list of exercises and record their workout, they can view their progress by going to the profile page and then clicking on the workout they want to see progress of."}
+                projectDescription={"Select from a list of weightlifting or cardio exercises and record your workout. You can then view your progress by going to the profile page and then clicking on the workout you want to see progress of."}
                 githubLink={"https://github.com/Michaeldremy/Gym_Bro_Python_Project"}
                 liveWebsiteUrl={"http://michaeldremy.pythonanywhere.com/"}
                 demoPageUrl={"#/gym-bro-project"}
