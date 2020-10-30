@@ -8,7 +8,7 @@ const VoiceNewsDemoPage = () => {
       <ProjectDemo 
       projectDemoTitle={"Voice News | Alan AI"}
       githubLink={"https://github.com/Michaeldremy/React-Alan-AI-News-Application"}
-      reactPlayerUrl={""}
+      reactPlayerUrl={"https://www.youtube.com/watch?v=Y7nFTpudnCg&feature=youtu.be&ab_channel=RemyFamily"}
       bulletOne={"Programmed Alan AI to make API calls to a news API then returned JSON object to save in React state to be used in destructured reusable React components"}
       bulletTwo={"Article card styling gets highlighted depending on which article Alan AI is reading from"}
       bulletThree={"Designed all front end of application within React using HTML/CSS and JavaScript"}
