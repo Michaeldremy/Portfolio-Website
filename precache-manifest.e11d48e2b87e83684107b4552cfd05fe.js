@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10b9e3173da4b3c9c7372e4ad43015e2",
+    "revision": "44333c8c413bb7afe704170c645ba038",
     "url": "/Portfolio-Website/index.html"
   },
   {
-    "revision": "607cc79a968048a665ac",
+    "revision": "b911bea854254f1a337f",
     "url": "/Portfolio-Website/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "4df53bc8e5c3792dd15d",
-    "url": "/Portfolio-Website/static/css/main.78a4c707.chunk.css"
+    "revision": "78191e925373d328e145",
+    "url": "/Portfolio-Website/static/css/main.61aa9a67.chunk.css"
   },
   {
-    "revision": "607cc79a968048a665ac",
-    "url": "/Portfolio-Website/static/js/2.2e414367.chunk.js"
+    "revision": "b911bea854254f1a337f",
+    "url": "/Portfolio-Website/static/js/2.22f1ef81.chunk.js"
   },
   {
     "revision": "b948d2a7727b83687a00ec53ef5267c0",
-    "url": "/Portfolio-Website/static/js/2.2e414367.chunk.js.LICENSE.txt"
+    "url": "/Portfolio-Website/static/js/2.22f1ef81.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4df53bc8e5c3792dd15d",
-    "url": "/Portfolio-Website/static/js/main.99dc0ff5.chunk.js"
+    "revision": "78191e925373d328e145",
+    "url": "/Portfolio-Website/static/js/main.61bf13ed.chunk.js"
   },
   {
     "revision": "eae4daa195d3396385ae",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website/static/media/alan_ai_news_3.e9a42fec.JPG"
   },
   {
+    "revision": "fded07658984095e2563abc7a128203a",
+    "url": "/Portfolio-Website/static/media/black-honeycomb-circle.fded0765.jpg"
+  },
+  {
     "revision": "359bda798b01b1e719cd644ccf23757e",
     "url": "/Portfolio-Website/static/media/crepuscolo.359bda79.JPG"
   },
@@ -78,5 +82,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "daf1776063f2dedd682bee49729b36b8",
     "url": "/Portfolio-Website/static/media/gym_bro_3.daf17760.JPG"
+  },
+  {
+    "revision": "27ea2438619fbdad8c54e5e3f6e17771",
+    "url": "/Portfolio-Website/static/media/trustock_1.27ea2438.JPG"
+  },
+  {
+    "revision": "f404897897928dcc206973a493ee3980",
+    "url": "/Portfolio-Website/static/media/trustock_2.f4048978.JPG"
+  },
+  {
+    "revision": "681bc9f2117d1c0540874acff127abdb",
+    "url": "/Portfolio-Website/static/media/trustock_3.681bc9f2.JPG"
+  },
+  {
+    "revision": "559adae5b6acfce768ac87a240064a84",
+    "url": "/Portfolio-Website/static/media/trustock_main.559adae5.JPG"
   }
 ]);
