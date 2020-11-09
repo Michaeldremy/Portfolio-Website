@@ -45,6 +45,9 @@ const NavBar = () => {
             <li className="nav-item">
               <a href="#/voice-news-project">Voice News</a>
             </li>
+            <li className="nav-item">
+              <a href="#/trustock-project">TruStock</a>
+            </li>
           </ul>
         </div>
       </header>

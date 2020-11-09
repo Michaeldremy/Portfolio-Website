@@ -80,7 +80,7 @@ const ProjectDemo = ({
               <li className="detail-points">{bulletTwo}</li>
               <li className="detail-points">{bulletThree}</li>
               <li className="detail-points">
-                Technologies Used: {technologies}
+                <span style={{fontWeight: '700'}}>Technologies:</span> {technologies}
               </li>
             </ul>
           </div>

@@ -19,6 +19,10 @@ import SpiderGame from '../imgs/SpiderGame.JPG';
 import alan_ai_news from '../imgs/alan_ai_news.JPG';
 import alan_ai_news_2 from '../imgs/alan_ai_news_2.JPG';
 import alan_ai_news_3 from '../imgs/alan_ai_news_3.JPG';
+import trustock_main from '../imgs/trustock_main.JPG';
+import trustock_1 from '../imgs/trustock_1.JPG';
+import trustock_2 from '../imgs/trustock_2.JPG';
+import trustock_3 from '../imgs/trustock_3.JPG';
 
 // App components
 import ProjectModal from './Projects/ProjectModal';
@@ -26,6 +30,7 @@ import NavBar from './Navigation/NavBar';
 import Contact from './Contact';
 import ResumeSection from './ResumeSection';
 import Intro from './First-Impressions/Intro';
+import DiscoverSkills from './First-Impressions/DiscoverSkills';
 
 function HomePage() {
 
@@ -34,42 +39,7 @@ function HomePage() {
             <NavBar />
             <Intro />
             {/* main page ends */}
-            <section className="about-me-container" id="about-me">
-                <div className="row text-center">
-                    <div className="col-12">
-                        <h1 className="about-me-header">About Me</h1>
-                        <div className="col-6 line"></div>
-                    </div>
-                </div>
-                <div className="row text-center">
-                    <div className="col-12" id="info-text-container">
-                        <h5>Hello! I'm Michael a software developer with interest in music, outdoors and reading books.</h5>
-                        <h5>I love solving challenging problems that require exceptional critical thinking, and I love to teach others.</h5>
-                        <h5>I have huge ambitions and dreams and I am always figuring out the most optimal way to accomplish them.</h5>
-                        <h5>I am skilled in three full stacks: Python/Django, MERN, C#/ASP.NET.</h5>
-                        <div className="col-6 line-bottom"></div>
-                    </div>
-                </div>
-                <div className="row text-center social-media-container">
-                    <div className="col d-none d-lg-block d-xl-none">
-                    </div>
-                    <div className="col">
-                        <a href="https://github.com/Michaeldremy" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{fontSize: '55px', marginTop: '0px', color: 'black'}} className="Social-media-mobile"></GitHubIcon></a>
-                        <a href="https://www.linkedin.com/in/michaeldremy/" target="_blank" rel="noopener noreferrer" className="Social-media-mobile"><LinkedInIcon style={{fontSize: '75px', color: '#005b8e', marginRight: '3rem', marginLeft: '3rem'}}></LinkedInIcon></a>
-                        <a href="mailto:michaeldremy@gmail.com"><MailOutlineIcon style={{fontSize: '76px', color: '#DEF2F1', opacity: '.85', marginBottom: '3px', marginRight: '7px'}} className="Social-media-mobile"></MailOutlineIcon></a>
-                    </div>
-                    <div className="col d-none d-lg-block d-xl-none">
-                    </div>
-                </div>
-                <div id="scroll-container">
-                    <div>
-                        <a href="#" className="scroll-down"></a>
-                    </div>
-                    <div className="mouse">
-                        <span></span>
-                    </div>
-                </div>
-            </section>
+            <DiscoverSkills />
             {/* about me ends */}
             <div style={{ background: '#17252a'}} className="project-section" id="projects">
                 <h1 className="project-h1">Projects</h1>
@@ -116,17 +86,17 @@ function HomePage() {
                 />
             {/* project three ends */}
             <ProjectModal
-                projectCardName={"Spider Queen"}
-                projectCardImage={SpiderGame}
-                projectCardDeployedSiteUrl={"https://connect.unity.com/mg/other/untitled-6364"}
-                imageOne={SpiderGame}
-                imageTwo={SpiderGame}
-                imageThree={SpiderGame}
-                projectTitle={"Spider Queen | FPS Game"}
-                projectDescription={"First-person shooter game created with C# and Unity. Goal of the game is to complete objectives and defeat the spider queen by solving puzzles."}
-                githubLink={"https://github.com/Michaeldremy/Spider-Queen-Vol-1-C-Sharp-Project"}
-                liveWebsiteUrl={"https://connect.unity.com/mg/other/untitled-6364"}
-                demoPageUrl={"#/spider-queen-project"}
+                projectCardName={"TruStock"}
+                projectCardImage={trustock_main}
+                projectCardDeployedSiteUrl={"https://michaeldremy-trustock.netlify.app/"}
+                imageOne={trustock_1}
+                imageTwo={trustock_2}
+                imageThree={trustock_3}
+                projectTitle={"TruStock"}
+                projectDescription={"Virtual Banking landing page created by using React styled-components to change section of website with boolean values."}
+                githubLink={"https://github.com/Michaeldremy/TruStock-React-Responsive-Website"}
+                liveWebsiteUrl={"https://michaeldremy-trustock.netlify.app/"}
+                demoPageUrl={"#/trustock-project"}
                 />
             {/* project four ends */}
             <ProjectModal
@@ -143,6 +113,20 @@ function HomePage() {
                 demoPageUrl={"#/voice-news-project"}
                 />
             {/* project five ends */}
+            <ProjectModal
+                projectCardName={"Spider Queen"}
+                projectCardImage={SpiderGame}
+                projectCardDeployedSiteUrl={"https://connect.unity.com/mg/other/untitled-6364"}
+                imageOne={SpiderGame}
+                imageTwo={SpiderGame}
+                imageThree={SpiderGame}
+                projectTitle={"Spider Queen | FPS Game"}
+                projectDescription={"First-person shooter game created with C# and Unity. Goal of the game is to complete objectives and defeat the spider queen by solving puzzles."}
+                githubLink={"https://github.com/Michaeldremy/Spider-Queen-Vol-1-C-Sharp-Project"}
+                liveWebsiteUrl={"https://connect.unity.com/mg/other/untitled-6364"}
+                demoPageUrl={"#/spider-queen-project"}
+                />
+            {/* project six ends */}
             </div>
             <ResumeSection />
             <section className="container-fluid contact-footer-container">
