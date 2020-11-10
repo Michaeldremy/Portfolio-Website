@@ -1,7 +1,7 @@
 .actual-circle{
   display: flex;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   margin: 2rem;
   text-align: center;
@@ -14,7 +14,7 @@
 }
 
 .circle-skill-container h1{
-  font-size: 17px;
+  font-size: 16px;
   font-family: sans-serif;
   font-weight: 400;
   color: #fff;
@@ -25,18 +25,8 @@
 @media screen and (max-width: 1050px) {
   .actual-circle{
     margin: .70rem;
-  }
-
-  .circle-skill-container h1 {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .actual-circle{
     height: 75px;
     width: 75px;
-    margin: .70rem;
   }
 
   .circle-skill-container h1 {
@@ -44,15 +34,27 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .actual-circle{
+    height: 60px;
+    width: 60px;
+    margin: .35rem;
+  }
+
+  .circle-skill-container h1 {
+    font-size: 11px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .actual-circle{
-    height: 65px;
-    width: 65px;
+    height: 55px;
+    width: 55px;
     margin: .25rem;
   }
 
   .circle-skill-container h1 {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
